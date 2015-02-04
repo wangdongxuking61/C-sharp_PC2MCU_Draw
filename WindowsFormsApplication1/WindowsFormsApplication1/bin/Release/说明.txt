@@ -1,0 +1,142 @@
+﻿//如果有疑问请联系qq：912385457
+//若果想定制专属上位机请联系。价钱面议。。。
+
+一、3*8画图功能的单片机函数（K60+XS128）
+//以下为K60程序 ，重要的就是send_data的赋值和send_num的赋值
+void SCISend_to_PIDDebug(UARTn uratn)
+{ 	
+    //1.所用数据
+    static unsigned char i,j;
+    static unsigned short int send_data[3][8]={{0},{0},{0}};//3幅图，每幅最多8条曲线，一条曲线是1个数
+    static unsigned char send_num[3]={3,0,0}; //每幅图多少条曲线
+    
+    //2.将想发的变量赋值给send1_data，send2_data，send3_data,就是把10,20,30这些数字改成变量就行。不发的数据要注释（省时间)
+    send_data[0][0]=(unsigned short int)(10);
+    send_data[0][1]=(unsigned short int)(20);
+    send_data[0][2]=(unsigned short int)(30);
+    /*send_data[0][3]=(unsigned short int)(40);
+    send_data[0][4]=(unsigned short int)(-10);
+    send_data[0][5]=(unsigned short int)(-20);
+    send_data[0][6]=(unsigned short int)(-30);
+    send_data[0][7]=(unsigned short int)(-40);
+
+    send_data[1][0]=(unsigned short int)(100);
+    send_data[1][1]=(unsigned short int)(200);
+    send_data[1][2]=(unsigned short int)(300);
+    send_data[1][3]=(unsigned short int)(400);
+    send_data[1][4]=(unsigned short int)(-100);
+    send_data[1][5]=(unsigned short int)(-200);
+    send_data[1][6]=(unsigned short int)(-300);
+    send_data[1][7]=(unsigned short int)(-400);
+    
+    send_data[2][0]=(unsigned short int)(10000);
+    send_data[2][1]=(unsigned short int)(20000);
+    send_data[2][2]=(unsigned short int)(30000);
+    send_data[2][3]=(unsigned short int)(40000);
+    send_data[2][4]=(unsigned short int)(-10000);
+    send_data[2][5]=(unsigned short int)(-20000);
+    send_data[2][6]=(unsigned short int)(-30000);
+    send_data[2][7]=(unsigned short int)(-40000);*/
+    
+    //3.这三幅图的字头,start的前两个字母
+    //理论上误码率约为1/65536=0.0000152587890625，应该这么算吧，就是这么个意思，不准确
+    //如果是处女座有强迫症可以在单片机上加上过滤，或者找我在软件上加上更加严格的字头
+    uart_putchar(uratn,'S');
+    uart_putchar(uratn,'T');
+    
+    //4.发送数据
+    for(i=0;i < 3;i++)
+      for(j=0;j < send_num[i];j++)
+      {
+          uart_putchar(uratn,send_data[i][j]);
+          uart_putchar(uratn,send_data[i][j]>>8u);
+      }
+}
+
+//以下为XS128程序，重要的就是send_data的赋值和send_num的赋值
+void SCISend_to_PIDDebug() 
+{ 	
+    //1.所用数据
+    static unsigned char i,j;
+    static unsigned int send_data[3][8]={{0},{0},{0}};//3幅图，每幅最多8条曲线，一条曲线是1个数
+    static unsigned char send_num[3]={3,0,0}; //每幅图多少条曲线
+    
+    //2.将想发的变量赋值给send1_data，send2_data，send3_data,就是把10,20,30这些数字改成变量就行。不发的数据要注释（省时间)
+    send_data[0][0]=(unsigned  int)(10);
+    send_data[0][1]=(unsigned  int)(20);
+    send_data[0][2]=(unsigned  int)(30);
+    /*send_data[0][3]=(unsigned  int)(40);
+    send_data[0][4]=(unsigned  int)(-10);
+    send_data[0][5]=(unsigned  int)(-20);
+    send_data[0][6]=(unsigned  int)(-30);
+    send_data[0][7]=(unsigned  int)(-40);
+
+    send_data[1][0]=(unsigned  int)(100);
+    send_data[1][1]=(unsigned  int)(200);
+    send_data[1][2]=(unsigned  int)(300);
+    send_data[1][3]=(unsigned  int)(400);
+    send_data[1][4]=(unsigned  int)(-100);
+    send_data[1][5]=(unsigned  int)(-200);
+    send_data[1][6]=(unsigned  int)(-300);
+    send_data[1][7]=(unsigned  int)(-400);
+    
+    send_data[2][0]=(unsigned  int)(10000);
+    send_data[2][1]=(unsigned  int)(20000);
+    send_data[2][2]=(unsigned  int)(30000);
+    send_data[2][3]=(unsigned  int)(40000);
+    send_data[2][4]=(unsigned  int)(-10000);
+    send_data[2][5]=(unsigned  int)(-20000);
+    send_data[2][6]=(unsigned  int)(-30000);
+    send_data[2][7]=(unsigned  int)(-40000);*/
+    
+    //3.这三幅图的字头,start的前两个字母
+    //理论上误码率约为1/65536=0.0000152587890625，应该这么算吧，就是这么个意思，不准确
+    //如果是处女座有强迫症可以在单片机上加上过滤，或者找我在软件上加上更加严格的字头
+    uart_putchar('S');
+    uart_putchar('T');
+    
+    //4.发送数据
+    for(i=0;i < 3;i++)
+      for(j=0;j < send_num[i];j++)
+      {
+          uart_putchar(send_data[i][j]);
+          uart_putchar(send_data[i][j]>>8u);
+      }
+}
+
+
+二、ccd画图功能的单片机函数(k60和xs128一样)
+void Send_ONEccddata_to_PC()//发送一个ccd的数据，在上位机上也要进行选择，ccddata0为用户自己定义的ccd数据全局变量
+{
+	//字头为0和255
+	uart_putchar(0);
+	uart_putchar(255);
+	for(int i=0;i<128;i++)
+		uart_putchar(ccddata0[i]);
+}
+void Send_TWOccddata_to_PC()//发送两个ccd的数据，在上位机上也要进行选择，ccddata0和ccddata1为用户自己定义的ccd数据全局变量
+{
+	//字头为0和255
+	uart_putchar(0);
+	uart_putchar(255);
+	for(int i=0;i<128;i++)
+		uart_putchar(ccddata0[i]);
+	for(int i=0;i<128;i++)
+		uart_putchar(ccddata1[i]);
+}
+
+三、摄像头采集功能，单片机函数
+void Send_Camera_Image_to_PC()//Image为用户自己定义的摄像头数据全局变量
+{
+	//字头255
+	uart_putchar(255);
+	for(int i=0;i<128;i++)
+		for(int j=0;j<128;j++)
+		{
+			if(Image[i][j]==255)
+				uart_putchar(254);
+			else
+				uart_putchar(Image[i][j]);
+		}
+}
+

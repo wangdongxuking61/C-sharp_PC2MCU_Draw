@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZGraph</name>
+    </assembly>
+    <members>
+        <member name="T:ZhengJuyin.UI.ZGraph">
+            <summary>
+            波形显示控件
+            坐标最小差值：1.0
+            </summary>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph._getQuan(System.Single)">
+            <summary>
+            计算一个浮点数的权值
+            如234.53返回100
+            </summary>
+            <param name="m">要计算权值的浮点数</param>
+            <returns>权值</returns>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph._changXBegionOrEndGO(System.Single,System.Boolean)">
+            <summary>
+            根据溢出坐标范围的浮点数，改变X轴的坐标标定权值和坐标标定值
+            </summary>
+            <param name="m">溢出坐标范围的浮点数</param>
+            <param name="isL">是否从左边溢出</param>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph._changYBegionOrEndGO(System.Single,System.Boolean)">
+            <summary>
+            根据溢出坐标范围的浮点数，改变Y轴的坐标标定权值和坐标标定值
+            </summary>
+            <param name="m">溢出坐标范围的浮点数</param>
+            <param name="isL">是否从下边溢出</param>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph._changeToDrawPoints(System.Int32,System.Collections.Generic.List{System.Drawing.PointF}@,System.Int32,System.Int32)">
+            <summary>
+            遍历要画的数据集合，并转换为坐标值
+            </summary>
+            <param name="index">要遍历的数据集合的编号</param>
+            <param name="listDrawPoints">转后后的坐标集合</param>
+            <param name="width">画布像素宽度</param>
+            <param name="height">画布像素高度</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph._changeXYPointsToNum(System.Single,System.Single,System.Single,System.Single,System.Single@,System.Single@,System.Single@,System.Single@)">
+            <summary>
+            波形显示中矩形区域的坐标转换为数据值
+            </summary>
+            <param name="xB">矩形区域左上角X轴坐标</param>
+            <param name="xE">矩形区域右下角X轴坐标</param>
+            <param name="yB">矩形区域左上角Y轴坐标</param>
+            <param name="yE">矩形区域右下角Y轴坐标</param>
+            <param name="outxB">转换后的左上角X轴数据值</param>
+            <param name="outxE">转换后的右下角X轴数据值</param>
+            <param name="outyB">转换后的左上角Y轴数据值</param>
+            <param name="outyE">转换后的右下角Y轴数据值</param>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph._changeXYPointsToNum(System.Single,System.Single,System.Single@,System.Single@)">
+            <summary>
+            波形显示中一个点的坐标转换为数据值
+            </summary>
+            <param name="x">要转换的点的X轴坐标</param>
+            <param name="y">要转换的点的Y轴坐标</param>
+            <param name="outX">转换后的X轴坐标</param>
+            <param name="outY">转换后的Y轴坐标</param>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._SyStitle">
+            <summary>
+            波形显示控件标题
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._SySnameX">
+            <summary>
+            X轴名称
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._SySnameY">
+            <summary>
+            Y轴名称
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._isAutoModeXY">
+            <summary>
+            当前坐标是否自动调整以适合窗口大小
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._isBigModeXY">
+            <summary>
+            当前是否处于放大查看模式
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._isLinesShowXY">
+            <summary>
+            当前是否显示网格
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._isShowBigSmallModeXY">
+            <summary>
+            当前是否允许放大缩小选取框显示
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._fAccuracy">
+            <summary>
+            坐标精确度
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._iAccuracy">
+            <summary>
+            坐标显示最多小数位数
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._listX">
+            <summary>
+            要显示的数据集合的X轴方向值集合的引用
+            若显示多条数据则依次添加X轴方向值集合的引用
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._listY">
+            <summary>
+            要显示的数据集合的Y轴方向值集合的引用
+            若显示多条数据则依次添加Y轴方向值集合的引用
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._listColor">
+            <summary>
+            要显示数据集合的线条颜色
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._listWidth">
+            <summary>
+            要显示数据集合的线条宽度
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._listLineJoin">
+            <summary>
+            要显示数据集合的连接点
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._listLineCap">
+            <summary>
+            要显示数据集合的起始线帽
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph._listDrawStyle">
+            <summary>
+            要显示数据集合的样式
+            </summary>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph.f_ClearAllPix">
+            <summary>
+            清空所有加载的波形数据并清空显示
+            </summary>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph.f_reXY">
+            <summary>
+            重新初始化X轴和Y轴坐标
+            </summary>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph.f_Refresh">
+            <summary>
+            更新显示
+            </summary>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph.f_LoadOnePix(System.Collections.Generic.List{System.Single}@,System.Collections.Generic.List{System.Single}@,System.Drawing.Color,System.Int32,System.Drawing.Drawing2D.LineJoin,System.Drawing.Drawing2D.LineCap,ZhengJuyin.UI.ZGraph.DrawStyle)">
+            <summary>
+            清空原有数据并加载一条波形数据
+            </summary>
+            <param name="listX">X轴</param>
+            <param name="listY">Y轴</param>
+            <param name="listColor">线条颜色</param>
+            <param name="listWidth">线条宽度</param>
+            <param name="listLineJoin">线条连接点</param>
+            <param name="listLineCap">线条起始线帽</param>
+            <param name="listDrawStyle">线条样式</param>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph.f_LoadOnePix(System.Collections.Generic.List{System.Single}@,System.Collections.Generic.List{System.Single}@,System.Drawing.Color,System.Int32)">
+            <summary>
+            清空原有数据并加载一条波形数据，显示样式为线条
+            </summary>
+            <param name="listX">X轴</param>
+            <param name="listY">Y轴</param>
+            <param name="listColor">线条颜色</param>
+            <param name="listWidth">线条宽度</param>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph.f_AddPix(System.Collections.Generic.List{System.Single}@,System.Collections.Generic.List{System.Single}@,System.Drawing.Color,System.Int32,System.Drawing.Drawing2D.LineJoin,System.Drawing.Drawing2D.LineCap,ZhengJuyin.UI.ZGraph.DrawStyle)">
+            <summary>
+            在原有波形上添加一条线
+            不可动态循环
+            </summary>
+            <param name="listX">X轴</param>
+            <param name="listY">Y轴</param>
+            <param name="listColor">线条颜色</param>
+            <param name="listWidth">线条宽度</param>
+            <param name="listLineJoin">线条连接点</param>
+            <param name="listLineCap">线条起始线帽</param>
+            <param name="listDrawStyle">线条样式</param>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph.f_AddPix(System.Collections.Generic.List{System.Single}@,System.Collections.Generic.List{System.Single}@,System.Drawing.Color,System.Int32)">
+            <summary>
+            在原有波形上添加一条线，显示样式为线条
+            不可动态循环
+            </summary>
+            <param name="listX">X轴</param>
+            <param name="listY">Y轴</param>
+            <param name="listColor">线条颜色</param>
+            <param name="listWidth">线条宽度</param>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ZhengJuyin.UI.ZGraph.#ctor">
+            <summary>
+            构造
+            初始化坐标值，坐标标定值，坐标标定权值
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_SyStitle">
+            <summary>
+            波形显示控件标题
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_SySnameX">
+            <summary>
+            X轴名称
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_SySnameY">
+            <summary>
+            Y轴名称
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_fXBeginSYS">
+            <summary>
+            初始X轴起始坐标
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_fXEndSYS">
+            <summary>
+            初始X轴结束坐标
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_fYBeginSYS">
+            <summary>
+            初始Y轴起始坐标
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_fYEndSYS">
+            <summary>
+            初始Y轴结束坐标
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_titleSize">
+            <summary>
+            控件标题字体大小
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_titlePosition">
+            <summary>
+            控件标题位置
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_titleColor">
+            <summary>
+            控件标题颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_titleBorderColor">
+            <summary>
+            控件标题描边颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_backColorL">
+            <summary>
+            背景色渐进起始颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_backColorH">
+            <summary>
+            背景色渐进终止颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_coordinateLineColor">
+            <summary>
+            坐标线颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_coordinateStringColor">
+            <summary>
+            坐标值颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_coordinateStringTitleColor">
+            <summary>
+            坐标标题颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_iLineShowColorAlpha">
+            <summary>
+            网格线的透明度
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_iLineShowColor">
+            <summary>
+            网格线的颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_GraphBackColor">
+            <summary>
+            波形显示区域背景色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_ControlItemBackColor">
+            <summary>
+            工具栏背景色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_ControlButtonBackColor">
+            <summary>
+            工具栏按钮背景颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_ControlButtonForeColorL">
+            <summary>
+            工具栏按钮前景选中颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_ControlButtonForeColorH">
+            <summary>
+            工具栏按钮前景未选中颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_DirectionBackColor">
+            <summary>
+            标签说明框背景颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_DirectionForeColor">
+            <summary>
+            标签说明框文字颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_BigXYBackColor">
+            <summary>
+            放大选取框背景颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_BigXYButtonBackColor">
+            <summary>
+            放大选取框按钮背景颜色
+            </summary>
+        </member>
+        <member name="P:ZhengJuyin.UI.ZGraph.m_BigXYButtonForeColor">
+            <summary>
+            放大选取框按钮文字颜色
+            </summary>
+        </member>
+        <member name="T:ZhengJuyin.UI.ZGraph.DrawStyle">
+            <summary>
+            画图样式
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph.DrawStyle.Line">
+            <summary>
+            线条
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph.DrawStyle.dot">
+            <summary>
+            点
+            </summary>
+        </member>
+        <member name="F:ZhengJuyin.UI.ZGraph.DrawStyle.bar">
+            <summary>
+            条形
+            </summary>
+        </member>
+    </members>
+</doc>
