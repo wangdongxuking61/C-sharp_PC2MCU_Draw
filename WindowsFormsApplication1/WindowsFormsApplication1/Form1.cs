@@ -539,7 +539,7 @@ namespace WindowsFormsApplication1
                                 builder.Append(str.Replace("\r",""));//直接按ASCII规则转换成字符串
                             }
                             else
-                                builder.Append(Encoding.ASCII.GetString(Received_bytes));//直接按ASCII规则转换成字符串
+                                builder.Append(Encoding.GetEncoding("GB2312").GetString(Received_bytes));//已经可以支持中文
                         }
                         this.richTextBox1.AppendText(builder.ToString());//追加的形式添加到文本框末端，并滚动到最后。  
                         label3.Text = "已接收:" + received_count.ToString();//修改接收计数  
@@ -1805,69 +1805,12 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void button10_Click(object sender, EventArgs e)
-        {
-            if (!comm.IsOpen)
-                return;
-            OFFSET_angle = Convert.ToDouble(textBox5.Text);
-            if (OFFSET_angle <= -80)
-            {
-                MessageBox.Show("OFFSET_angle不能再小了，亲！！！");
-                return;
-            }
-            OFFSET_angle = OFFSET_angle - 0.1;
-            comm.Write("3");
-            textBox5.Text = OFFSET_angle.ToString();
-        }
 
-        private void button11_Click(object sender, EventArgs e)
-        {
-            if (!comm.IsOpen)
-                return;
-            OFFSET_angle = Convert.ToDouble(textBox5.Text);
-            if (OFFSET_angle >= 80)
-            {
-                MessageBox.Show("OFFSET_angle不能再大了，亲！！！");
-                return;
-            }
-            OFFSET_angle = OFFSET_angle + 0.1;
-            comm.Write("2");
-            textBox5.Text =  OFFSET_angle.ToString();
-        }
+
 
         private void groupBox5_Enter(object sender, EventArgs e)
         {
 
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            if (!comm.IsOpen)
-                return;
-            OFFSET_angle = Convert.ToDouble(textBox5.Text);
-            if (OFFSET_angle >= 80)
-            {
-                MessageBox.Show("OFFSET_angle不能再大了，亲！！！");
-                return;
-            }
-            OFFSET_angle = OFFSET_angle + 1;
-            comm.Write("0");
-            textBox5.Text = OFFSET_angle.ToString();
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            if (!comm.IsOpen)
-                return;
-            OFFSET_angle = Convert.ToDouble(textBox5.Text);
-            if (OFFSET_angle <= -80)
-            {
-                MessageBox.Show("OFFSET_angle不能再小了，亲！！！");
-                return;
-            }
-            OFFSET_angle = OFFSET_angle - 1;
-            comm.Write("1");
-            textBox5.Text = OFFSET_angle.ToString();
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
@@ -1885,31 +1828,6 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void button16_Click(object sender, EventArgs e)
-        {
-            if (!comm.IsOpen)
-                return;
-            Tg = Convert.ToDouble(textBox6.Text);
-            Tg = Tg + 1;
-            comm.Write("4");
-            textBox6.Text = Tg.ToString();
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            if (!comm.IsOpen)
-                return;
-            Tg = Convert.ToDouble(textBox6.Text);
-            if (Tg <= 0.1)
-            {
-                MessageBox.Show("Tg不能再小了，亲！！！");
-                return;
-            }
-            Tg = Tg - 1;
-            comm.Write("5");
-            textBox6.Text = Tg.ToString();
-        }
-
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
@@ -1918,31 +1836,6 @@ namespace WindowsFormsApplication1
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            if (!comm.IsOpen)
-                return;
-            Tg = Convert.ToDouble(textBox6.Text);
-            Tg = Tg +0.1;
-            comm.Write("6");
-            textBox6.Text = Tg.ToString();
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-            if (!comm.IsOpen)
-                return;
-            Tg = Convert.ToDouble(textBox6.Text);
-            if (Tg <= 0.1)
-            {
-                MessageBox.Show("Tg不能再小了");
-                return;
-            }
-            Tg = Tg - 0.1;
-            comm.Write("7");
-            textBox6.Text = Tg.ToString();
         }
 
         private void groupBox4_Enter(object sender, EventArgs e)
@@ -1970,19 +1863,6 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void button17_Click(object sender, EventArgs e)
-        {
-            button改变底纹颜色.Enabled = false;
-            this.Focus();
-            ColorDialog my = new ColorDialog();
-            if (DialogResult.OK == my.ShowDialog())
-            {
-                tabPage2.BackColor = my.Color;
-                tabPage2.Refresh();
-                button改变底纹颜色.BackColor = tabPage2.BackColor;
-            }
-            button改变底纹颜色.Enabled = true;
-        }
 
         private void tabPage3_Click(object sender, EventArgs e)
         {
@@ -3150,239 +3030,6 @@ namespace WindowsFormsApplication1
         private void richTextBox使用说明_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void button17_Click_1(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/"+senderButton.Text+".png");
-        }
-
-        private void button43_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button44_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button49_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button45_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button46_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button51_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button50_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button53_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button54_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button55_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button52_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button48_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button47_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button62_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button61_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button60_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button59_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button58_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button57_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button56_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button71_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button70_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button69_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button68_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button67_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button66_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button65_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button64_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button63_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button77_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button76_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button75_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button74_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button73_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button72_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button78_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/" + senderButton.Text + ".png");
-        }
-
-        private void button79_Click(object sender, EventArgs e)
-        {
-            Button senderButton = (Button)sender;//根据sender引用控件。 = (Button)sender;//根据sender引用控件。
-            pictureBox6.Image = Image.FromFile("picture/38.png");
         }
 
         private void label8_Click_1(object sender, EventArgs e)

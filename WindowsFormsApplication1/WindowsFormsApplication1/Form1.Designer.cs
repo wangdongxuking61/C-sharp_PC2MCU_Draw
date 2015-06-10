@@ -32,8 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button改变底纹颜色 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -131,20 +129,6 @@
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.button9 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
@@ -161,47 +145,6 @@
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.button79 = new System.Windows.Forms.Button();
-            this.button78 = new System.Windows.Forms.Button();
-            this.button77 = new System.Windows.Forms.Button();
-            this.button76 = new System.Windows.Forms.Button();
-            this.button75 = new System.Windows.Forms.Button();
-            this.button74 = new System.Windows.Forms.Button();
-            this.button73 = new System.Windows.Forms.Button();
-            this.button72 = new System.Windows.Forms.Button();
-            this.button71 = new System.Windows.Forms.Button();
-            this.button70 = new System.Windows.Forms.Button();
-            this.button69 = new System.Windows.Forms.Button();
-            this.button68 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
-            this.button66 = new System.Windows.Forms.Button();
-            this.button65 = new System.Windows.Forms.Button();
-            this.button64 = new System.Windows.Forms.Button();
-            this.button63 = new System.Windows.Forms.Button();
-            this.button62 = new System.Windows.Forms.Button();
-            this.button61 = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
-            this.button59 = new System.Windows.Forms.Button();
-            this.button58 = new System.Windows.Forms.Button();
-            this.button57 = new System.Windows.Forms.Button();
-            this.button56 = new System.Windows.Forms.Button();
-            this.button55 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.richTextBox使用说明 = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -271,16 +214,9 @@
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.tabPage1.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage7.SuspendLayout();
             this.groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.tabPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -290,17 +226,16 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage7);
-            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(11, 11);
+            this.tabControl1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tabControl1.Location = new System.Drawing.Point(23, 11);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -314,8 +249,6 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.tabPage2.Controls.Add(this.button改变底纹颜色);
-            this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.Controls.Add(this.pictureBox4);
             this.tabPage2.Controls.Add(this.pictureBox3);
             this.tabPage2.Controls.Add(this.pictureBox1);
@@ -327,24 +260,6 @@
             this.tabPage2.Size = new System.Drawing.Size(911, 620);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "串口功能";
-            // 
-            // button改变底纹颜色
-            // 
-            this.button改变底纹颜色.Location = new System.Drawing.Point(112, 570);
-            this.button改变底纹颜色.Name = "button改变底纹颜色";
-            this.button改变底纹颜色.Size = new System.Drawing.Size(34, 30);
-            this.button改变底纹颜色.TabIndex = 19;
-            this.button改变底纹颜色.UseVisualStyleBackColor = true;
-            this.button改变底纹颜色.Click += new System.EventHandler(this.button17_Click);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(29, 579);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(77, 12);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "改变底纹颜色";
             // 
             // pictureBox4
             // 
@@ -383,9 +298,9 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.BackColor = System.Drawing.Color.Silver;
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.button1);
@@ -439,9 +354,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox1.HideSelection = false;
             this.richTextBox1.Location = new System.Drawing.Point(27, 27);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
@@ -465,13 +380,13 @@
             this.tabPage3.Controls.Add(this.zGraph0);
             this.tabPage3.Controls.Add(this.groupBox外观样式);
             this.tabPage3.Controls.Add(this.groupBox数据显示模拟);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 26);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage3.Size = new System.Drawing.Size(911, 620);
+            this.tabPage3.Size = new System.Drawing.Size(911, 616);
             this.tabPage3.TabIndex = 3;
-            this.tabPage3.Text = "画3*8条曲线功能";
+            this.tabPage3.Text = "数据画图";
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // comboBox图片2曲线数目
@@ -508,8 +423,8 @@
             // 
             // zGraph2
             // 
-            this.zGraph2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.zGraph2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.zGraph2.BackColor = System.Drawing.Color.White;
             this.zGraph2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.zGraph2.Location = new System.Drawing.Point(436, 301);
@@ -544,7 +459,7 @@
             this.zGraph2.Margin = new System.Windows.Forms.Padding(0);
             this.zGraph2.MinimumSize = new System.Drawing.Size(390, 270);
             this.zGraph2.Name = "zGraph2";
-            this.zGraph2.Size = new System.Drawing.Size(463, 317);
+            this.zGraph2.Size = new System.Drawing.Size(463, 313);
             this.zGraph2.TabIndex = 71;
             // 
             // comboBox图片1曲线数目
@@ -580,9 +495,9 @@
             // 
             // zGraph1
             // 
-            this.zGraph1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.zGraph1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.zGraph1.BackColor = System.Drawing.Color.White;
             this.zGraph1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.zGraph1.Location = new System.Drawing.Point(0, 322);
@@ -617,7 +532,7 @@
             this.zGraph1.Margin = new System.Windows.Forms.Padding(0);
             this.zGraph1.MinimumSize = new System.Drawing.Size(390, 270);
             this.zGraph1.Name = "zGraph1";
-            this.zGraph1.Size = new System.Drawing.Size(431, 296);
+            this.zGraph1.Size = new System.Drawing.Size(431, 292);
             this.zGraph1.TabIndex = 70;
             // 
             // comboBox图片0曲线数目
@@ -654,9 +569,9 @@
             // 
             // zGraph0
             // 
-            this.zGraph0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.zGraph0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.zGraph0.BackColor = System.Drawing.Color.White;
             this.zGraph0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.zGraph0.Location = new System.Drawing.Point(2, 2);
@@ -691,7 +606,7 @@
             this.zGraph0.Margin = new System.Windows.Forms.Padding(0);
             this.zGraph0.MinimumSize = new System.Drawing.Size(390, 270);
             this.zGraph0.Name = "zGraph0";
-            this.zGraph0.Size = new System.Drawing.Size(431, 295);
+            this.zGraph0.Size = new System.Drawing.Size(431, 291);
             this.zGraph0.TabIndex = 69;
             // 
             // groupBox外观样式
@@ -1434,7 +1349,7 @@
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage6.Size = new System.Drawing.Size(911, 620);
             this.tabPage6.TabIndex = 6;
-            this.tabPage6.Text = "CCD显示功能";
+            this.tabPage6.Text = "CCD图像显示";
             // 
             // checkBox9
             // 
@@ -1677,177 +1592,6 @@
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             this.pictureBox7.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox7_Paint);
             // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.Color.LightBlue;
-            this.tabPage1.Controls.Add(this.groupBox6);
-            this.tabPage1.Controls.Add(this.groupBox5);
-            this.tabPage1.Controls.Add(this.pictureBox2);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Size = new System.Drawing.Size(911, 620);
-            this.tabPage1.TabIndex = 2;
-            this.tabPage1.Text = "平衡调试";
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.BackColor = System.Drawing.Color.LightBlue;
-            this.groupBox6.Controls.Add(this.textBox6);
-            this.groupBox6.Controls.Add(this.button13);
-            this.groupBox6.Controls.Add(this.button14);
-            this.groupBox6.Controls.Add(this.button15);
-            this.groupBox6.Controls.Add(this.button16);
-            this.groupBox6.Location = new System.Drawing.Point(4, 50);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox6.Size = new System.Drawing.Size(150, 44);
-            this.groupBox6.TabIndex = 25;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Tg：";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(90, 0);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(52, 21);
-            this.textBox6.TabIndex = 26;
-            this.textBox6.Text = "2";
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(34, 22);
-            this.button13.Margin = new System.Windows.Forms.Padding(2);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(25, 18);
-            this.button13.TabIndex = 23;
-            this.button13.Text = "-1";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(63, 22);
-            this.button14.Margin = new System.Windows.Forms.Padding(2);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(37, 18);
-            this.button14.TabIndex = 22;
-            this.button14.Text = "+0.1";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // button15
-            // 
-            this.button15.Location = new System.Drawing.Point(102, 22);
-            this.button15.Margin = new System.Windows.Forms.Padding(2);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(39, 18);
-            this.button15.TabIndex = 21;
-            this.button15.Text = "-0.1";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(4, 22);
-            this.button16.Margin = new System.Windows.Forms.Padding(2);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(25, 18);
-            this.button16.TabIndex = 20;
-            this.button16.Text = "+1";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.BackColor = System.Drawing.Color.LightBlue;
-            this.groupBox5.Controls.Add(this.button9);
-            this.groupBox5.Controls.Add(this.textBox5);
-            this.groupBox5.Controls.Add(this.button10);
-            this.groupBox5.Controls.Add(this.button12);
-            this.groupBox5.Controls.Add(this.button11);
-            this.groupBox5.Location = new System.Drawing.Point(4, 5);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox5.Size = new System.Drawing.Size(149, 44);
-            this.groupBox5.TabIndex = 24;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "OFFSET_angle：";
-            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(4, 23);
-            this.button9.Margin = new System.Windows.Forms.Padding(2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(25, 18);
-            this.button9.TabIndex = 20;
-            this.button9.Text = "+1";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(90, 0);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(52, 21);
-            this.textBox5.TabIndex = 24;
-            this.textBox5.Text = "76";
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(104, 23);
-            this.button10.Margin = new System.Windows.Forms.Padding(2);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(37, 18);
-            this.button10.TabIndex = 21;
-            this.button10.Text = "-0.1";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(34, 23);
-            this.button12.Margin = new System.Windows.Forms.Padding(2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(25, 18);
-            this.button12.TabIndex = 23;
-            this.button12.Text = "-1";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(63, 23);
-            this.button11.Margin = new System.Windows.Forms.Padding(2);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(37, 18);
-            this.button11.TabIndex = 22;
-            this.button11.Text = "+0.1";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(507, 181);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(152, 160);
-            this.pictureBox2.TabIndex = 16;
-            this.pictureBox2.TabStop = false;
-            // 
             // tabPage7
             // 
             this.tabPage7.BackColor = System.Drawing.Color.Silver;
@@ -1864,7 +1608,7 @@
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage7.Size = new System.Drawing.Size(911, 620);
             this.tabPage7.TabIndex = 7;
-            this.tabPage7.Text = "摄像头图像采集";
+            this.tabPage7.Text = "摄像头图像显示";
             // 
             // label38
             // 
@@ -2025,500 +1769,6 @@
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox9_Paint);
             // 
-            // tabPage5
-            // 
-            this.tabPage5.BackColor = System.Drawing.Color.Green;
-            this.tabPage5.Controls.Add(this.button79);
-            this.tabPage5.Controls.Add(this.button78);
-            this.tabPage5.Controls.Add(this.button77);
-            this.tabPage5.Controls.Add(this.button76);
-            this.tabPage5.Controls.Add(this.button75);
-            this.tabPage5.Controls.Add(this.button74);
-            this.tabPage5.Controls.Add(this.button73);
-            this.tabPage5.Controls.Add(this.button72);
-            this.tabPage5.Controls.Add(this.button71);
-            this.tabPage5.Controls.Add(this.button70);
-            this.tabPage5.Controls.Add(this.button69);
-            this.tabPage5.Controls.Add(this.button68);
-            this.tabPage5.Controls.Add(this.button67);
-            this.tabPage5.Controls.Add(this.button66);
-            this.tabPage5.Controls.Add(this.button65);
-            this.tabPage5.Controls.Add(this.button64);
-            this.tabPage5.Controls.Add(this.button63);
-            this.tabPage5.Controls.Add(this.button62);
-            this.tabPage5.Controls.Add(this.button61);
-            this.tabPage5.Controls.Add(this.button60);
-            this.tabPage5.Controls.Add(this.button59);
-            this.tabPage5.Controls.Add(this.button58);
-            this.tabPage5.Controls.Add(this.button57);
-            this.tabPage5.Controls.Add(this.button56);
-            this.tabPage5.Controls.Add(this.button55);
-            this.tabPage5.Controls.Add(this.button54);
-            this.tabPage5.Controls.Add(this.button53);
-            this.tabPage5.Controls.Add(this.button52);
-            this.tabPage5.Controls.Add(this.button51);
-            this.tabPage5.Controls.Add(this.button50);
-            this.tabPage5.Controls.Add(this.button49);
-            this.tabPage5.Controls.Add(this.button48);
-            this.tabPage5.Controls.Add(this.button47);
-            this.tabPage5.Controls.Add(this.button46);
-            this.tabPage5.Controls.Add(this.button45);
-            this.tabPage5.Controls.Add(this.button44);
-            this.tabPage5.Controls.Add(this.button43);
-            this.tabPage5.Controls.Add(this.button17);
-            this.tabPage5.Controls.Add(this.pictureBox5);
-            this.tabPage5.Controls.Add(this.pictureBox6);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(2);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage5.Size = new System.Drawing.Size(911, 620);
-            this.tabPage5.TabIndex = 5;
-            this.tabPage5.Text = "摄像头图像显示";
-            // 
-            // button79
-            // 
-            this.button79.Location = new System.Drawing.Point(526, 168);
-            this.button79.Margin = new System.Windows.Forms.Padding(2);
-            this.button79.Name = "button79";
-            this.button79.Size = new System.Drawing.Size(45, 55);
-            this.button79.TabIndex = 43;
-            this.button79.Text = "38号断头路口";
-            this.button79.UseVisualStyleBackColor = true;
-            this.button79.Click += new System.EventHandler(this.button79_Click);
-            // 
-            // button78
-            // 
-            this.button78.Location = new System.Drawing.Point(478, 355);
-            this.button78.Margin = new System.Windows.Forms.Padding(2);
-            this.button78.Name = "button78";
-            this.button78.Size = new System.Drawing.Size(26, 20);
-            this.button78.TabIndex = 42;
-            this.button78.Text = "37";
-            this.button78.UseVisualStyleBackColor = true;
-            this.button78.Click += new System.EventHandler(this.button78_Click);
-            // 
-            // button77
-            // 
-            this.button77.Location = new System.Drawing.Point(289, 397);
-            this.button77.Margin = new System.Windows.Forms.Padding(2);
-            this.button77.Name = "button77";
-            this.button77.Size = new System.Drawing.Size(26, 20);
-            this.button77.TabIndex = 41;
-            this.button77.Text = "31";
-            this.button77.UseVisualStyleBackColor = true;
-            this.button77.Click += new System.EventHandler(this.button77_Click);
-            // 
-            // button76
-            // 
-            this.button76.Location = new System.Drawing.Point(336, 368);
-            this.button76.Margin = new System.Windows.Forms.Padding(2);
-            this.button76.Name = "button76";
-            this.button76.Size = new System.Drawing.Size(26, 20);
-            this.button76.TabIndex = 40;
-            this.button76.Text = "32";
-            this.button76.UseVisualStyleBackColor = true;
-            this.button76.Click += new System.EventHandler(this.button76_Click);
-            // 
-            // button75
-            // 
-            this.button75.Location = new System.Drawing.Point(346, 338);
-            this.button75.Margin = new System.Windows.Forms.Padding(2);
-            this.button75.Name = "button75";
-            this.button75.Size = new System.Drawing.Size(26, 20);
-            this.button75.TabIndex = 39;
-            this.button75.Text = "33";
-            this.button75.UseVisualStyleBackColor = true;
-            this.button75.Click += new System.EventHandler(this.button75_Click);
-            // 
-            // button74
-            // 
-            this.button74.Location = new System.Drawing.Point(366, 309);
-            this.button74.Margin = new System.Windows.Forms.Padding(2);
-            this.button74.Name = "button74";
-            this.button74.Size = new System.Drawing.Size(26, 20);
-            this.button74.TabIndex = 38;
-            this.button74.Text = "34";
-            this.button74.UseVisualStyleBackColor = true;
-            this.button74.Click += new System.EventHandler(this.button74_Click);
-            // 
-            // button73
-            // 
-            this.button73.Location = new System.Drawing.Point(408, 346);
-            this.button73.Margin = new System.Windows.Forms.Padding(2);
-            this.button73.Name = "button73";
-            this.button73.Size = new System.Drawing.Size(26, 20);
-            this.button73.TabIndex = 37;
-            this.button73.Text = "35";
-            this.button73.UseVisualStyleBackColor = true;
-            this.button73.Click += new System.EventHandler(this.button73_Click);
-            // 
-            // button72
-            // 
-            this.button72.Location = new System.Drawing.Point(438, 368);
-            this.button72.Margin = new System.Windows.Forms.Padding(2);
-            this.button72.Name = "button72";
-            this.button72.Size = new System.Drawing.Size(26, 20);
-            this.button72.TabIndex = 36;
-            this.button72.Text = "36";
-            this.button72.UseVisualStyleBackColor = true;
-            this.button72.Click += new System.EventHandler(this.button72_Click);
-            // 
-            // button71
-            // 
-            this.button71.Location = new System.Drawing.Point(142, 358);
-            this.button71.Margin = new System.Windows.Forms.Padding(2);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(26, 20);
-            this.button71.TabIndex = 35;
-            this.button71.Text = "22";
-            this.button71.UseVisualStyleBackColor = true;
-            this.button71.Click += new System.EventHandler(this.button71_Click);
-            // 
-            // button70
-            // 
-            this.button70.Location = new System.Drawing.Point(108, 387);
-            this.button70.Margin = new System.Windows.Forms.Padding(2);
-            this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(26, 20);
-            this.button70.TabIndex = 34;
-            this.button70.Text = "23";
-            this.button70.UseVisualStyleBackColor = true;
-            this.button70.Click += new System.EventHandler(this.button70_Click);
-            // 
-            // button69
-            // 
-            this.button69.Location = new System.Drawing.Point(43, 355);
-            this.button69.Margin = new System.Windows.Forms.Padding(2);
-            this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(26, 20);
-            this.button69.TabIndex = 33;
-            this.button69.Text = "24";
-            this.button69.UseVisualStyleBackColor = true;
-            this.button69.Click += new System.EventHandler(this.button69_Click);
-            // 
-            // button68
-            // 
-            this.button68.Location = new System.Drawing.Point(43, 283);
-            this.button68.Margin = new System.Windows.Forms.Padding(2);
-            this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(26, 20);
-            this.button68.TabIndex = 32;
-            this.button68.Text = "25";
-            this.button68.UseVisualStyleBackColor = true;
-            this.button68.Click += new System.EventHandler(this.button68_Click);
-            // 
-            // button67
-            // 
-            this.button67.Location = new System.Drawing.Point(88, 263);
-            this.button67.Margin = new System.Windows.Forms.Padding(2);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(26, 20);
-            this.button67.TabIndex = 31;
-            this.button67.Text = "26";
-            this.button67.UseVisualStyleBackColor = true;
-            this.button67.Click += new System.EventHandler(this.button67_Click);
-            // 
-            // button66
-            // 
-            this.button66.Location = new System.Drawing.Point(178, 309);
-            this.button66.Margin = new System.Windows.Forms.Padding(2);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(26, 20);
-            this.button66.TabIndex = 30;
-            this.button66.Text = "27";
-            this.button66.UseVisualStyleBackColor = true;
-            this.button66.Click += new System.EventHandler(this.button66_Click);
-            // 
-            // button65
-            // 
-            this.button65.Location = new System.Drawing.Point(232, 283);
-            this.button65.Margin = new System.Windows.Forms.Padding(2);
-            this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(26, 20);
-            this.button65.TabIndex = 29;
-            this.button65.Text = "28";
-            this.button65.UseVisualStyleBackColor = true;
-            this.button65.Click += new System.EventHandler(this.button65_Click);
-            // 
-            // button64
-            // 
-            this.button64.Location = new System.Drawing.Point(232, 359);
-            this.button64.Margin = new System.Windows.Forms.Padding(2);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(26, 20);
-            this.button64.TabIndex = 28;
-            this.button64.Text = "29";
-            this.button64.UseVisualStyleBackColor = true;
-            this.button64.Click += new System.EventHandler(this.button64_Click);
-            // 
-            // button63
-            // 
-            this.button63.Location = new System.Drawing.Point(254, 387);
-            this.button63.Margin = new System.Windows.Forms.Padding(2);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(26, 20);
-            this.button63.TabIndex = 27;
-            this.button63.Text = "30";
-            this.button63.UseVisualStyleBackColor = true;
-            this.button63.Click += new System.EventHandler(this.button63_Click);
-            // 
-            // button62
-            // 
-            this.button62.Location = new System.Drawing.Point(254, 106);
-            this.button62.Margin = new System.Windows.Forms.Padding(2);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(26, 20);
-            this.button62.TabIndex = 26;
-            this.button62.Text = "15";
-            this.button62.UseVisualStyleBackColor = true;
-            this.button62.Click += new System.EventHandler(this.button62_Click);
-            // 
-            // button61
-            // 
-            this.button61.Location = new System.Drawing.Point(202, 106);
-            this.button61.Margin = new System.Windows.Forms.Padding(2);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(26, 20);
-            this.button61.TabIndex = 25;
-            this.button61.Text = "16";
-            this.button61.UseVisualStyleBackColor = true;
-            this.button61.Click += new System.EventHandler(this.button61_Click);
-            // 
-            // button60
-            // 
-            this.button60.Location = new System.Drawing.Point(170, 119);
-            this.button60.Margin = new System.Windows.Forms.Padding(2);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(26, 20);
-            this.button60.TabIndex = 24;
-            this.button60.Text = "17";
-            this.button60.UseVisualStyleBackColor = true;
-            this.button60.Click += new System.EventHandler(this.button60_Click);
-            // 
-            // button59
-            // 
-            this.button59.Location = new System.Drawing.Point(154, 156);
-            this.button59.Margin = new System.Windows.Forms.Padding(2);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(26, 20);
-            this.button59.TabIndex = 23;
-            this.button59.Text = "18";
-            this.button59.UseVisualStyleBackColor = true;
-            this.button59.Click += new System.EventHandler(this.button59_Click);
-            // 
-            // button58
-            // 
-            this.button58.Location = new System.Drawing.Point(154, 203);
-            this.button58.Margin = new System.Windows.Forms.Padding(2);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(26, 20);
-            this.button58.TabIndex = 22;
-            this.button58.Text = "19";
-            this.button58.UseVisualStyleBackColor = true;
-            this.button58.Click += new System.EventHandler(this.button58_Click);
-            // 
-            // button57
-            // 
-            this.button57.Location = new System.Drawing.Point(154, 246);
-            this.button57.Margin = new System.Windows.Forms.Padding(2);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(26, 20);
-            this.button57.TabIndex = 21;
-            this.button57.Text = "20";
-            this.button57.UseVisualStyleBackColor = true;
-            this.button57.Click += new System.EventHandler(this.button57_Click);
-            // 
-            // button56
-            // 
-            this.button56.Location = new System.Drawing.Point(127, 303);
-            this.button56.Margin = new System.Windows.Forms.Padding(2);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(26, 20);
-            this.button56.TabIndex = 20;
-            this.button56.Text = "21";
-            this.button56.UseVisualStyleBackColor = true;
-            this.button56.Click += new System.EventHandler(this.button56_Click);
-            // 
-            // button55
-            // 
-            this.button55.Location = new System.Drawing.Point(387, 143);
-            this.button55.Margin = new System.Windows.Forms.Padding(2);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(26, 20);
-            this.button55.TabIndex = 19;
-            this.button55.Text = "11";
-            this.button55.UseVisualStyleBackColor = true;
-            this.button55.Click += new System.EventHandler(this.button55_Click);
-            // 
-            // button54
-            // 
-            this.button54.Location = new System.Drawing.Point(408, 127);
-            this.button54.Margin = new System.Windows.Forms.Padding(2);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(26, 20);
-            this.button54.TabIndex = 18;
-            this.button54.Text = "10";
-            this.button54.UseVisualStyleBackColor = true;
-            this.button54.Click += new System.EventHandler(this.button54_Click);
-            // 
-            // button53
-            // 
-            this.button53.Location = new System.Drawing.Point(438, 135);
-            this.button53.Margin = new System.Windows.Forms.Padding(2);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(26, 20);
-            this.button53.TabIndex = 17;
-            this.button53.Text = "9";
-            this.button53.UseVisualStyleBackColor = true;
-            this.button53.Click += new System.EventHandler(this.button53_Click);
-            // 
-            // button52
-            // 
-            this.button52.Location = new System.Drawing.Point(357, 156);
-            this.button52.Margin = new System.Windows.Forms.Padding(2);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(26, 20);
-            this.button52.TabIndex = 16;
-            this.button52.Text = "12";
-            this.button52.UseVisualStyleBackColor = true;
-            this.button52.Click += new System.EventHandler(this.button52_Click);
-            // 
-            // button51
-            // 
-            this.button51.Location = new System.Drawing.Point(540, 121);
-            this.button51.Margin = new System.Windows.Forms.Padding(2);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(26, 20);
-            this.button51.TabIndex = 15;
-            this.button51.Text = "7";
-            this.button51.UseVisualStyleBackColor = true;
-            this.button51.Click += new System.EventHandler(this.button51_Click);
-            // 
-            // button50
-            // 
-            this.button50.Location = new System.Drawing.Point(486, 135);
-            this.button50.Margin = new System.Windows.Forms.Padding(2);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(26, 20);
-            this.button50.TabIndex = 14;
-            this.button50.Text = "8";
-            this.button50.UseVisualStyleBackColor = true;
-            this.button50.Click += new System.EventHandler(this.button50_Click);
-            // 
-            // button49
-            // 
-            this.button49.Location = new System.Drawing.Point(526, 12);
-            this.button49.Margin = new System.Windows.Forms.Padding(2);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(26, 20);
-            this.button49.TabIndex = 13;
-            this.button49.Text = "4";
-            this.button49.UseVisualStyleBackColor = true;
-            this.button49.Click += new System.EventHandler(this.button49_Click);
-            // 
-            // button48
-            // 
-            this.button48.Location = new System.Drawing.Point(336, 168);
-            this.button48.Margin = new System.Windows.Forms.Padding(2);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(26, 20);
-            this.button48.TabIndex = 12;
-            this.button48.Text = "13";
-            this.button48.UseVisualStyleBackColor = true;
-            this.button48.Click += new System.EventHandler(this.button48_Click);
-            // 
-            // button47
-            // 
-            this.button47.Location = new System.Drawing.Point(289, 149);
-            this.button47.Margin = new System.Windows.Forms.Padding(2);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(26, 20);
-            this.button47.TabIndex = 11;
-            this.button47.Text = "14";
-            this.button47.UseVisualStyleBackColor = true;
-            this.button47.Click += new System.EventHandler(this.button47_Click);
-            // 
-            // button46
-            // 
-            this.button46.Location = new System.Drawing.Point(578, 81);
-            this.button46.Margin = new System.Windows.Forms.Padding(2);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(26, 20);
-            this.button46.TabIndex = 10;
-            this.button46.Text = "6";
-            this.button46.UseVisualStyleBackColor = true;
-            this.button46.Click += new System.EventHandler(this.button46_Click);
-            // 
-            // button45
-            // 
-            this.button45.Location = new System.Drawing.Point(570, 45);
-            this.button45.Margin = new System.Windows.Forms.Padding(2);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(26, 20);
-            this.button45.TabIndex = 9;
-            this.button45.Text = "5";
-            this.button45.UseVisualStyleBackColor = true;
-            this.button45.Click += new System.EventHandler(this.button45_Click);
-            // 
-            // button44
-            // 
-            this.button44.Location = new System.Drawing.Point(478, 16);
-            this.button44.Margin = new System.Windows.Forms.Padding(2);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(26, 20);
-            this.button44.TabIndex = 8;
-            this.button44.Text = "3";
-            this.button44.UseVisualStyleBackColor = true;
-            this.button44.Click += new System.EventHandler(this.button44_Click);
-            // 
-            // button43
-            // 
-            this.button43.Location = new System.Drawing.Point(298, 30);
-            this.button43.Margin = new System.Windows.Forms.Padding(2);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(26, 18);
-            this.button43.TabIndex = 7;
-            this.button43.Text = "2";
-            this.button43.UseVisualStyleBackColor = true;
-            this.button43.Click += new System.EventHandler(this.button43_Click);
-            // 
-            // button17
-            // 
-            this.button17.Location = new System.Drawing.Point(178, 30);
-            this.button17.Margin = new System.Windows.Forms.Padding(2);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(26, 18);
-            this.button17.TabIndex = 4;
-            this.button17.Text = "1";
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.button17_Click_1);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Green;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(9, 6);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(601, 433);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(43, 443);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(783, 168);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
-            // 
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.richTextBox使用说明);
@@ -2532,9 +1782,9 @@
             // 
             // richTextBox使用说明
             // 
-            this.richTextBox使用说明.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox使用说明.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox使用说明.BackColor = System.Drawing.Color.NavajoWhite;
             this.richTextBox使用说明.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.richTextBox使用说明.Location = new System.Drawing.Point(3, 3);
@@ -3183,7 +2433,6 @@
             this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
             this.tabControl1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -3199,20 +2448,11 @@
             this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.tabPage1.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.tabPage5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -3246,9 +2486,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
@@ -3260,20 +2498,8 @@
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Timer timerRandom;
         private System.Windows.Forms.Timer timerDraw;
         private System.Windows.Forms.TabPage tabPage3;
@@ -3284,8 +2510,6 @@
         private System.Windows.Forms.TextBox textBox数值;
         private System.Windows.Forms.Button button数据显示模拟7;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button改变底纹颜色;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button参考样式2;
         private System.Windows.Forms.Button button参考样式1;
         private System.Windows.Forms.Button button默认样式;
@@ -3373,47 +2597,6 @@
         private System.Windows.Forms.ComboBox comboBox图片2曲线数目;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RichTextBox richTextBox使用说明;
-        private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button43;
-        private System.Windows.Forms.Button button77;
-        private System.Windows.Forms.Button button76;
-        private System.Windows.Forms.Button button75;
-        private System.Windows.Forms.Button button74;
-        private System.Windows.Forms.Button button73;
-        private System.Windows.Forms.Button button72;
-        private System.Windows.Forms.Button button71;
-        private System.Windows.Forms.Button button70;
-        private System.Windows.Forms.Button button69;
-        private System.Windows.Forms.Button button68;
-        private System.Windows.Forms.Button button67;
-        private System.Windows.Forms.Button button66;
-        private System.Windows.Forms.Button button65;
-        private System.Windows.Forms.Button button64;
-        private System.Windows.Forms.Button button63;
-        private System.Windows.Forms.Button button62;
-        private System.Windows.Forms.Button button61;
-        private System.Windows.Forms.Button button60;
-        private System.Windows.Forms.Button button59;
-        private System.Windows.Forms.Button button58;
-        private System.Windows.Forms.Button button57;
-        private System.Windows.Forms.Button button56;
-        private System.Windows.Forms.Button button55;
-        private System.Windows.Forms.Button button54;
-        private System.Windows.Forms.Button button53;
-        private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button51;
-        private System.Windows.Forms.Button button50;
-        private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Button button48;
-        private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.Button button46;
-        private System.Windows.Forms.Button button45;
-        private System.Windows.Forms.Button button44;
-        private System.Windows.Forms.Button button79;
-        private System.Windows.Forms.Button button78;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
         private ZhengJuyin.UI.ZGraph zGraph2;
         private ZhengJuyin.UI.ZGraph zGraph1;
         private ZhengJuyin.UI.ZGraph zGraph0;
