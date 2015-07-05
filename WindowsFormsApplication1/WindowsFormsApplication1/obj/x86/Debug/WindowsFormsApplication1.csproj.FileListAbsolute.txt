@@ -92,7 +92,7 @@ C:\Users\xuxu\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debu
 C:\Users\xuxu\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
 C:\Users\xuxu\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZGraph.dll
 C:\Users\xuxu\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZGraph.xml
-C:\Users\xuxu\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
 C:\Users\xuxu\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\xuxu\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\xuxu\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\xuxu\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache

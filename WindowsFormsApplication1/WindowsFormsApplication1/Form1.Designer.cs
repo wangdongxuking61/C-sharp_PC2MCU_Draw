@@ -41,86 +41,17 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.comboBox图片2曲线数目 = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.zGraph2 = new ZhengJuyin.UI.ZGraph();
-            this.comboBox图片1曲线数目 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.zGraph1 = new ZhengJuyin.UI.ZGraph();
-            this.comboBox图片0曲线数目 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.zGraph0 = new ZhengJuyin.UI.ZGraph();
-            this.groupBox外观样式 = new System.Windows.Forms.GroupBox();
-            this.button工具栏按钮前景未选中颜色 = new System.Windows.Forms.Button();
-            this.button网络线的透明度 = new System.Windows.Forms.Button();
-            this.button标题位置 = new System.Windows.Forms.Button();
-            this.button标题字体大小 = new System.Windows.Forms.Button();
-            this.label28 = new System.Windows.Forms.Label();
-            this.textBox网络线的透明度 = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.button放大选取框按钮文字颜色 = new System.Windows.Forms.Button();
-            this.label23 = new System.Windows.Forms.Label();
-            this.button放大选取框按钮背景颜色 = new System.Windows.Forms.Button();
-            this.button放大选取框背景颜色 = new System.Windows.Forms.Button();
-            this.button标签说明框背景颜色 = new System.Windows.Forms.Button();
-            this.button标签说明框文字颜色 = new System.Windows.Forms.Button();
-            this.button工具栏按钮前景选中颜色 = new System.Windows.Forms.Button();
-            this.textBox标题字体大小 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.button波形显示区域背景色 = new System.Windows.Forms.Button();
-            this.button工具栏按钮背景色 = new System.Windows.Forms.Button();
-            this.button工具栏背景色 = new System.Windows.Forms.Button();
-            this.button网络线的颜色 = new System.Windows.Forms.Button();
-            this.button坐标标题颜色 = new System.Windows.Forms.Button();
-            this.button坐标值颜色 = new System.Windows.Forms.Button();
-            this.button坐标线颜色 = new System.Windows.Forms.Button();
-            this.button背景色渐进起始颜色 = new System.Windows.Forms.Button();
-            this.button背景色渐进终止颜色 = new System.Windows.Forms.Button();
-            this.button标题描边颜色 = new System.Windows.Forms.Button();
-            this.button标题颜色 = new System.Windows.Forms.Button();
-            this.textBox标题位置 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
             this.groupBox数据显示模拟 = new System.Windows.Forms.GroupBox();
-            this.button参考样式2 = new System.Windows.Forms.Button();
-            this.button默认样式 = new System.Windows.Forms.Button();
-            this.button参考样式1 = new System.Windows.Forms.Button();
             this.textBox附加参数 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox数值 = new System.Windows.Forms.TextBox();
             this.button数据显示模拟7 = new System.Windows.Forms.Button();
-            this.button数据显示模拟5 = new System.Windows.Forms.Button();
+            this.zGraph2 = new ZhengJuyin.UI.ZGraph();
+            this.zGraph0 = new ZhengJuyin.UI.ZGraph();
+            this.zGraph1 = new ZhengJuyin.UI.ZGraph();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.button90 = new System.Windows.Forms.Button();
-            this.button89 = new System.Windows.Forms.Button();
-            this.button88 = new System.Windows.Forms.Button();
-            this.button87 = new System.Windows.Forms.Button();
-            this.button86 = new System.Windows.Forms.Button();
-            this.button85 = new System.Windows.Forms.Button();
-            this.button84 = new System.Windows.Forms.Button();
-            this.button83 = new System.Windows.Forms.Button();
-            this.button82 = new System.Windows.Forms.Button();
-            this.button81 = new System.Windows.Forms.Button();
-            this.button80 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
@@ -130,22 +61,22 @@
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.button91 = new System.Windows.Forms.Button();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.button91 = new System.Windows.Forms.Button();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label6 = new System.Windows.Forms.Label();
             this.richTextBox使用说明 = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -171,7 +102,6 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.timerRandom = new System.Windows.Forms.Timer(this.components);
             this.timerDraw = new System.Windows.Forms.Timer(this.components);
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.button39 = new System.Windows.Forms.Button();
@@ -209,13 +139,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.groupBox外观样式.SuspendLayout();
             this.groupBox数据显示模拟.SuspendLayout();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.tabPage7.SuspendLayout();
-            this.groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -235,16 +163,14 @@
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tabControl1.Location = new System.Drawing.Point(23, 11);
+            this.tabControl1.Location = new System.Drawing.Point(23, 20);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(919, 646);
+            this.tabControl1.Size = new System.Drawing.Size(1037, 714);
             this.tabControl1.TabIndex = 15;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             this.tabControl1.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tabControl1_Selecting);
-            this.tabControl1.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabControl1_Selected);
-            this.tabControl1.TabIndexChanged += new System.EventHandler(this.tabControl1_TabIndexChanged);
             // 
             // tabPage2
             // 
@@ -257,7 +183,7 @@
             this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage2.Size = new System.Drawing.Size(911, 620);
+            this.tabPage2.Size = new System.Drawing.Size(1029, 688);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "串口功能";
             // 
@@ -265,22 +191,21 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.InitialImage")));
-            this.pictureBox4.Location = new System.Drawing.Point(19, 373);
+            this.pictureBox4.Location = new System.Drawing.Point(19, 438);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(145, 160);
             this.pictureBox4.TabIndex = 17;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.InitialImage")));
-            this.pictureBox3.Location = new System.Drawing.Point(19, 185);
+            this.pictureBox3.Location = new System.Drawing.Point(19, 228);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(145, 161);
+            this.pictureBox3.Size = new System.Drawing.Size(145, 160);
             this.pictureBox3.TabIndex = 16;
             this.pictureBox3.TabStop = false;
             // 
@@ -291,10 +216,9 @@
             this.pictureBox1.Location = new System.Drawing.Point(19, 11);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(145, 148);
+            this.pictureBox1.Size = new System.Drawing.Size(145, 163);
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // groupBox2
             // 
@@ -311,10 +235,9 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(718, 592);
+            this.groupBox2.Size = new System.Drawing.Size(836, 659);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // label3
             // 
@@ -325,12 +248,11 @@
             this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 12;
             this.label3.Text = "已接收:0";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button1.Location = new System.Drawing.Point(127, 553);
+            this.button1.Location = new System.Drawing.Point(127, 620);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(91, 35);
@@ -343,14 +265,13 @@
             // 
             this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(27, 563);
+            this.checkBox1.Location = new System.Drawing.Point(27, 630);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(96, 16);
             this.checkBox1.TabIndex = 8;
             this.checkBox1.Text = "十六进制显示";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // richTextBox1
             // 
@@ -361,909 +282,40 @@
             this.richTextBox1.Location = new System.Drawing.Point(27, 27);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(670, 522);
+            this.richTextBox1.Size = new System.Drawing.Size(788, 589);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged_1);
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.LightSlateGray;
-            this.tabPage3.Controls.Add(this.comboBox图片2曲线数目);
-            this.tabPage3.Controls.Add(this.label8);
-            this.tabPage3.Controls.Add(this.zGraph2);
-            this.tabPage3.Controls.Add(this.comboBox图片1曲线数目);
-            this.tabPage3.Controls.Add(this.label7);
-            this.tabPage3.Controls.Add(this.zGraph1);
-            this.tabPage3.Controls.Add(this.comboBox图片0曲线数目);
-            this.tabPage3.Controls.Add(this.label6);
-            this.tabPage3.Controls.Add(this.zGraph0);
-            this.tabPage3.Controls.Add(this.groupBox外观样式);
             this.tabPage3.Controls.Add(this.groupBox数据显示模拟);
-            this.tabPage3.Location = new System.Drawing.Point(4, 26);
+            this.tabPage3.Controls.Add(this.zGraph2);
+            this.tabPage3.Controls.Add(this.zGraph0);
+            this.tabPage3.Controls.Add(this.zGraph1);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage3.Size = new System.Drawing.Size(911, 616);
+            this.tabPage3.Size = new System.Drawing.Size(1029, 688);
             this.tabPage3.TabIndex = 3;
             this.tabPage3.Text = "数据画图";
-            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
-            // 
-            // comboBox图片2曲线数目
-            // 
-            this.comboBox图片2曲线数目.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox图片2曲线数目.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBox图片2曲线数目.FormattingEnabled = true;
-            this.comboBox图片2曲线数目.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8"});
-            this.comboBox图片2曲线数目.Location = new System.Drawing.Point(820, 306);
-            this.comboBox图片2曲线数目.Name = "comboBox图片2曲线数目";
-            this.comboBox图片2曲线数目.Size = new System.Drawing.Size(74, 20);
-            this.comboBox图片2曲线数目.TabIndex = 68;
-            // 
-            // label8
-            // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FloralWhite;
-            this.label8.Location = new System.Drawing.Point(749, 309);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(65, 12);
-            this.label8.TabIndex = 67;
-            this.label8.Text = "曲线条数：";
-            this.label8.Click += new System.EventHandler(this.label8_Click_1);
-            // 
-            // zGraph2
-            // 
-            this.zGraph2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.zGraph2.BackColor = System.Drawing.Color.White;
-            this.zGraph2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.zGraph2.Location = new System.Drawing.Point(436, 301);
-            this.zGraph2.m_backColorH = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.zGraph2.m_backColorL = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph2.m_BigXYBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph2.m_BigXYButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph2.m_BigXYButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph2.m_ControlButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph2.m_ControlButtonForeColorH = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.zGraph2.m_ControlButtonForeColorL = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-            this.zGraph2.m_ControlItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph2.m_coordinateLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph2.m_coordinateStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph2.m_coordinateStringTitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph2.m_DirectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.zGraph2.m_DirectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph2.m_fXBeginSYS = 0F;
-            this.zGraph2.m_fXEndSYS = 60F;
-            this.zGraph2.m_fYBeginSYS = 0F;
-            this.zGraph2.m_fYEndSYS = 1F;
-            this.zGraph2.m_GraphBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph2.m_iLineShowColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph2.m_iLineShowColorAlpha = 100;
-            this.zGraph2.m_SySnameX = "X轴坐标";
-            this.zGraph2.m_SySnameY = "Y轴坐标";
-            this.zGraph2.m_SyStitle = "波形显示2";
-            this.zGraph2.m_titleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-            this.zGraph2.m_titleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph2.m_titlePosition = 0.3F;
-            this.zGraph2.m_titleSize = 14;
-            this.zGraph2.Margin = new System.Windows.Forms.Padding(0);
-            this.zGraph2.MinimumSize = new System.Drawing.Size(390, 270);
-            this.zGraph2.Name = "zGraph2";
-            this.zGraph2.Size = new System.Drawing.Size(463, 313);
-            this.zGraph2.TabIndex = 71;
-            // 
-            // comboBox图片1曲线数目
-            // 
-            this.comboBox图片1曲线数目.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox图片1曲线数目.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBox图片1曲线数目.FormattingEnabled = true;
-            this.comboBox图片1曲线数目.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8"});
-            this.comboBox图片1曲线数目.Location = new System.Drawing.Point(350, 329);
-            this.comboBox图片1曲线数目.Name = "comboBox图片1曲线数目";
-            this.comboBox图片1曲线数目.Size = new System.Drawing.Size(74, 20);
-            this.comboBox图片1曲线数目.TabIndex = 63;
-            // 
-            // label7
-            // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FloralWhite;
-            this.label7.Location = new System.Drawing.Point(279, 332);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(65, 12);
-            this.label7.TabIndex = 65;
-            this.label7.Text = "曲线条数：";
-            // 
-            // zGraph1
-            // 
-            this.zGraph1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.zGraph1.BackColor = System.Drawing.Color.White;
-            this.zGraph1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.zGraph1.Location = new System.Drawing.Point(0, 322);
-            this.zGraph1.m_backColorH = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.zGraph1.m_backColorL = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph1.m_BigXYBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph1.m_BigXYButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph1.m_BigXYButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph1.m_ControlButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph1.m_ControlButtonForeColorH = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.zGraph1.m_ControlButtonForeColorL = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-            this.zGraph1.m_ControlItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph1.m_coordinateLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph1.m_coordinateStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph1.m_coordinateStringTitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph1.m_DirectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.zGraph1.m_DirectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph1.m_fXBeginSYS = 0F;
-            this.zGraph1.m_fXEndSYS = 60F;
-            this.zGraph1.m_fYBeginSYS = 0F;
-            this.zGraph1.m_fYEndSYS = 1F;
-            this.zGraph1.m_GraphBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph1.m_iLineShowColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph1.m_iLineShowColorAlpha = 100;
-            this.zGraph1.m_SySnameX = "X轴坐标";
-            this.zGraph1.m_SySnameY = "Y轴坐标";
-            this.zGraph1.m_SyStitle = "波形显示1";
-            this.zGraph1.m_titleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-            this.zGraph1.m_titleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph1.m_titlePosition = 0.3F;
-            this.zGraph1.m_titleSize = 14;
-            this.zGraph1.Margin = new System.Windows.Forms.Padding(0);
-            this.zGraph1.MinimumSize = new System.Drawing.Size(390, 270);
-            this.zGraph1.Name = "zGraph1";
-            this.zGraph1.Size = new System.Drawing.Size(431, 292);
-            this.zGraph1.TabIndex = 70;
-            // 
-            // comboBox图片0曲线数目
-            // 
-            this.comboBox图片0曲线数目.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox图片0曲线数目.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBox图片0曲线数目.FormattingEnabled = true;
-            this.comboBox图片0曲线数目.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8"});
-            this.comboBox图片0曲线数目.Location = new System.Drawing.Point(350, 5);
-            this.comboBox图片0曲线数目.Name = "comboBox图片0曲线数目";
-            this.comboBox图片0曲线数目.Size = new System.Drawing.Size(74, 20);
-            this.comboBox图片0曲线数目.TabIndex = 62;
-            this.comboBox图片0曲线数目.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // label6
-            // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FloralWhite;
-            this.label6.Location = new System.Drawing.Point(279, 8);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 12);
-            this.label6.TabIndex = 64;
-            this.label6.Text = "曲线条数：";
-            // 
-            // zGraph0
-            // 
-            this.zGraph0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.zGraph0.BackColor = System.Drawing.Color.White;
-            this.zGraph0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.zGraph0.Location = new System.Drawing.Point(2, 2);
-            this.zGraph0.m_backColorH = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.zGraph0.m_backColorL = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph0.m_BigXYBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph0.m_BigXYButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph0.m_BigXYButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph0.m_ControlButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph0.m_ControlButtonForeColorH = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.zGraph0.m_ControlButtonForeColorL = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-            this.zGraph0.m_ControlItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph0.m_coordinateLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph0.m_coordinateStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph0.m_coordinateStringTitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph0.m_DirectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.zGraph0.m_DirectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph0.m_fXBeginSYS = 0F;
-            this.zGraph0.m_fXEndSYS = 60F;
-            this.zGraph0.m_fYBeginSYS = 0F;
-            this.zGraph0.m_fYEndSYS = 1F;
-            this.zGraph0.m_GraphBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph0.m_iLineShowColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.zGraph0.m_iLineShowColorAlpha = 100;
-            this.zGraph0.m_SySnameX = "X轴坐标";
-            this.zGraph0.m_SySnameY = "Y轴坐标";
-            this.zGraph0.m_SyStitle = "波形显示0";
-            this.zGraph0.m_titleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-            this.zGraph0.m_titleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.zGraph0.m_titlePosition = 0.3F;
-            this.zGraph0.m_titleSize = 14;
-            this.zGraph0.Margin = new System.Windows.Forms.Padding(0);
-            this.zGraph0.MinimumSize = new System.Drawing.Size(390, 270);
-            this.zGraph0.Name = "zGraph0";
-            this.zGraph0.Size = new System.Drawing.Size(431, 291);
-            this.zGraph0.TabIndex = 69;
-            // 
-            // groupBox外观样式
-            // 
-            this.groupBox外观样式.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox外观样式.Controls.Add(this.button工具栏按钮前景未选中颜色);
-            this.groupBox外观样式.Controls.Add(this.button网络线的透明度);
-            this.groupBox外观样式.Controls.Add(this.button标题位置);
-            this.groupBox外观样式.Controls.Add(this.button标题字体大小);
-            this.groupBox外观样式.Controls.Add(this.label28);
-            this.groupBox外观样式.Controls.Add(this.textBox网络线的透明度);
-            this.groupBox外观样式.Controls.Add(this.label27);
-            this.groupBox外观样式.Controls.Add(this.label26);
-            this.groupBox外观样式.Controls.Add(this.label25);
-            this.groupBox外观样式.Controls.Add(this.label24);
-            this.groupBox外观样式.Controls.Add(this.button放大选取框按钮文字颜色);
-            this.groupBox外观样式.Controls.Add(this.label23);
-            this.groupBox外观样式.Controls.Add(this.button放大选取框按钮背景颜色);
-            this.groupBox外观样式.Controls.Add(this.button放大选取框背景颜色);
-            this.groupBox外观样式.Controls.Add(this.button标签说明框背景颜色);
-            this.groupBox外观样式.Controls.Add(this.button标签说明框文字颜色);
-            this.groupBox外观样式.Controls.Add(this.button工具栏按钮前景选中颜色);
-            this.groupBox外观样式.Controls.Add(this.textBox标题字体大小);
-            this.groupBox外观样式.Controls.Add(this.label11);
-            this.groupBox外观样式.Controls.Add(this.button波形显示区域背景色);
-            this.groupBox外观样式.Controls.Add(this.button工具栏按钮背景色);
-            this.groupBox外观样式.Controls.Add(this.button工具栏背景色);
-            this.groupBox外观样式.Controls.Add(this.button网络线的颜色);
-            this.groupBox外观样式.Controls.Add(this.button坐标标题颜色);
-            this.groupBox外观样式.Controls.Add(this.button坐标值颜色);
-            this.groupBox外观样式.Controls.Add(this.button坐标线颜色);
-            this.groupBox外观样式.Controls.Add(this.button背景色渐进起始颜色);
-            this.groupBox外观样式.Controls.Add(this.button背景色渐进终止颜色);
-            this.groupBox外观样式.Controls.Add(this.button标题描边颜色);
-            this.groupBox外观样式.Controls.Add(this.button标题颜色);
-            this.groupBox外观样式.Controls.Add(this.textBox标题位置);
-            this.groupBox外观样式.Controls.Add(this.label12);
-            this.groupBox外观样式.Controls.Add(this.label22);
-            this.groupBox外观样式.Controls.Add(this.label13);
-            this.groupBox外观样式.Controls.Add(this.label21);
-            this.groupBox外观样式.Controls.Add(this.label14);
-            this.groupBox外观样式.Controls.Add(this.label20);
-            this.groupBox外观样式.Controls.Add(this.label15);
-            this.groupBox外观样式.Controls.Add(this.label19);
-            this.groupBox外观样式.Controls.Add(this.label16);
-            this.groupBox外观样式.Controls.Add(this.label18);
-            this.groupBox外观样式.Controls.Add(this.label17);
-            this.groupBox外观样式.Controls.Add(this.label29);
-            this.groupBox外观样式.Controls.Add(this.label30);
-            this.groupBox外观样式.Controls.Add(this.label31);
-            this.groupBox外观样式.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox外观样式.ForeColor = System.Drawing.Color.Black;
-            this.groupBox外观样式.Location = new System.Drawing.Point(555, 12);
-            this.groupBox外观样式.Name = "groupBox外观样式";
-            this.groupBox外观样式.Size = new System.Drawing.Size(344, 283);
-            this.groupBox外观样式.TabIndex = 26;
-            this.groupBox外观样式.TabStop = false;
-            this.groupBox外观样式.Text = "外观样式";
-            // 
-            // button工具栏按钮前景未选中颜色
-            // 
-            this.button工具栏按钮前景未选中颜色.BackColor = System.Drawing.Color.White;
-            this.button工具栏按钮前景未选中颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button工具栏按钮前景未选中颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button工具栏按钮前景未选中颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button工具栏按钮前景未选中颜色.Location = new System.Drawing.Point(319, 131);
-            this.button工具栏按钮前景未选中颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button工具栏按钮前景未选中颜色.Name = "button工具栏按钮前景未选中颜色";
-            this.button工具栏按钮前景未选中颜色.Size = new System.Drawing.Size(20, 20);
-            this.button工具栏按钮前景未选中颜色.TabIndex = 41;
-            this.button工具栏按钮前景未选中颜色.TabStop = false;
-            this.button工具栏按钮前景未选中颜色.UseVisualStyleBackColor = false;
-            this.button工具栏按钮前景未选中颜色.Click += new System.EventHandler(this.button工具栏按钮前景未选中颜色_Click);
-            // 
-            // button网络线的透明度
-            // 
-            this.button网络线的透明度.Location = new System.Drawing.Point(128, 238);
-            this.button网络线的透明度.Name = "button网络线的透明度";
-            this.button网络线的透明度.Size = new System.Drawing.Size(42, 23);
-            this.button网络线的透明度.TabIndex = 53;
-            this.button网络线的透明度.TabStop = false;
-            this.button网络线的透明度.Text = "确定";
-            this.button网络线的透明度.UseVisualStyleBackColor = true;
-            this.button网络线的透明度.Click += new System.EventHandler(this.button网络线的透明度_Click);
-            // 
-            // button标题位置
-            // 
-            this.button标题位置.Location = new System.Drawing.Point(128, 42);
-            this.button标题位置.Name = "button标题位置";
-            this.button标题位置.Size = new System.Drawing.Size(42, 23);
-            this.button标题位置.TabIndex = 52;
-            this.button标题位置.TabStop = false;
-            this.button标题位置.Text = "确定";
-            this.button标题位置.UseVisualStyleBackColor = true;
-            this.button标题位置.Click += new System.EventHandler(this.button标题位置_Click);
-            // 
-            // button标题字体大小
-            // 
-            this.button标题字体大小.Location = new System.Drawing.Point(128, 19);
-            this.button标题字体大小.Name = "button标题字体大小";
-            this.button标题字体大小.Size = new System.Drawing.Size(42, 23);
-            this.button标题字体大小.TabIndex = 51;
-            this.button标题字体大小.TabStop = false;
-            this.button标题字体大小.Text = "确定";
-            this.button标题字体大小.UseVisualStyleBackColor = true;
-            this.button标题字体大小.Click += new System.EventHandler(this.button标题字体大小_Click);
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.Location = new System.Drawing.Point(176, 255);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(137, 12);
-            this.label28.TabIndex = 28;
-            this.label28.Text = "放大选取框按钮文字颜色";
-            // 
-            // textBox网络线的透明度
-            // 
-            this.textBox网络线的透明度.BackColor = System.Drawing.Color.White;
-            this.textBox网络线的透明度.ForeColor = System.Drawing.Color.Black;
-            this.textBox网络线的透明度.Location = new System.Drawing.Point(99, 238);
-            this.textBox网络线的透明度.Name = "textBox网络线的透明度";
-            this.textBox网络线的透明度.Size = new System.Drawing.Size(32, 21);
-            this.textBox网络线的透明度.TabIndex = 50;
-            this.textBox网络线的透明度.TabStop = false;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.BackColor = System.Drawing.Color.Transparent;
-            this.label27.Location = new System.Drawing.Point(176, 231);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(137, 12);
-            this.label27.TabIndex = 27;
-            this.label27.Text = "放大选取框按钮背景颜色";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Location = new System.Drawing.Point(176, 207);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(113, 12);
-            this.label26.TabIndex = 26;
-            this.label26.Text = "放大选取框背景颜色";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Location = new System.Drawing.Point(176, 183);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(113, 12);
-            this.label25.TabIndex = 25;
-            this.label25.Text = "标签说明框文字颜色";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Location = new System.Drawing.Point(176, 159);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(113, 12);
-            this.label24.TabIndex = 24;
-            this.label24.Text = "标签说明框背景颜色";
-            // 
-            // button放大选取框按钮文字颜色
-            // 
-            this.button放大选取框按钮文字颜色.BackColor = System.Drawing.Color.White;
-            this.button放大选取框按钮文字颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button放大选取框按钮文字颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button放大选取框按钮文字颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button放大选取框按钮文字颜色.Location = new System.Drawing.Point(319, 251);
-            this.button放大选取框按钮文字颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button放大选取框按钮文字颜色.Name = "button放大选取框按钮文字颜色";
-            this.button放大选取框按钮文字颜色.Size = new System.Drawing.Size(20, 20);
-            this.button放大选取框按钮文字颜色.TabIndex = 46;
-            this.button放大选取框按钮文字颜色.TabStop = false;
-            this.button放大选取框按钮文字颜色.UseVisualStyleBackColor = false;
-            this.button放大选取框按钮文字颜色.Click += new System.EventHandler(this.button放大选取框按钮文字颜色_Click);
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Location = new System.Drawing.Point(176, 135);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(149, 12);
-            this.label23.TabIndex = 23;
-            this.label23.Text = "工具栏按钮前景未选中颜色";
-            // 
-            // button放大选取框按钮背景颜色
-            // 
-            this.button放大选取框按钮背景颜色.BackColor = System.Drawing.Color.White;
-            this.button放大选取框按钮背景颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button放大选取框按钮背景颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button放大选取框按钮背景颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button放大选取框按钮背景颜色.Location = new System.Drawing.Point(319, 227);
-            this.button放大选取框按钮背景颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button放大选取框按钮背景颜色.Name = "button放大选取框按钮背景颜色";
-            this.button放大选取框按钮背景颜色.Size = new System.Drawing.Size(20, 20);
-            this.button放大选取框按钮背景颜色.TabIndex = 45;
-            this.button放大选取框按钮背景颜色.TabStop = false;
-            this.button放大选取框按钮背景颜色.UseVisualStyleBackColor = false;
-            this.button放大选取框按钮背景颜色.Click += new System.EventHandler(this.button放大选取框按钮背景颜色_Click);
-            // 
-            // button放大选取框背景颜色
-            // 
-            this.button放大选取框背景颜色.BackColor = System.Drawing.Color.White;
-            this.button放大选取框背景颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button放大选取框背景颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button放大选取框背景颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button放大选取框背景颜色.Location = new System.Drawing.Point(319, 203);
-            this.button放大选取框背景颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button放大选取框背景颜色.Name = "button放大选取框背景颜色";
-            this.button放大选取框背景颜色.Size = new System.Drawing.Size(20, 20);
-            this.button放大选取框背景颜色.TabIndex = 44;
-            this.button放大选取框背景颜色.TabStop = false;
-            this.button放大选取框背景颜色.UseVisualStyleBackColor = false;
-            this.button放大选取框背景颜色.Click += new System.EventHandler(this.button放大选取框背景颜色_Click);
-            // 
-            // button标签说明框背景颜色
-            // 
-            this.button标签说明框背景颜色.BackColor = System.Drawing.Color.White;
-            this.button标签说明框背景颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button标签说明框背景颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button标签说明框背景颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button标签说明框背景颜色.Location = new System.Drawing.Point(319, 155);
-            this.button标签说明框背景颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button标签说明框背景颜色.Name = "button标签说明框背景颜色";
-            this.button标签说明框背景颜色.Size = new System.Drawing.Size(20, 20);
-            this.button标签说明框背景颜色.TabIndex = 43;
-            this.button标签说明框背景颜色.TabStop = false;
-            this.button标签说明框背景颜色.UseVisualStyleBackColor = false;
-            this.button标签说明框背景颜色.Click += new System.EventHandler(this.button标签说明框背景颜色_Click);
-            // 
-            // button标签说明框文字颜色
-            // 
-            this.button标签说明框文字颜色.BackColor = System.Drawing.Color.White;
-            this.button标签说明框文字颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button标签说明框文字颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button标签说明框文字颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button标签说明框文字颜色.Location = new System.Drawing.Point(319, 179);
-            this.button标签说明框文字颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button标签说明框文字颜色.Name = "button标签说明框文字颜色";
-            this.button标签说明框文字颜色.Size = new System.Drawing.Size(20, 20);
-            this.button标签说明框文字颜色.TabIndex = 42;
-            this.button标签说明框文字颜色.TabStop = false;
-            this.button标签说明框文字颜色.UseVisualStyleBackColor = false;
-            this.button标签说明框文字颜色.Click += new System.EventHandler(this.button标签说明框文字颜色_Click);
-            // 
-            // button工具栏按钮前景选中颜色
-            // 
-            this.button工具栏按钮前景选中颜色.BackColor = System.Drawing.Color.White;
-            this.button工具栏按钮前景选中颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button工具栏按钮前景选中颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button工具栏按钮前景选中颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button工具栏按钮前景选中颜色.Location = new System.Drawing.Point(319, 107);
-            this.button工具栏按钮前景选中颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button工具栏按钮前景选中颜色.Name = "button工具栏按钮前景选中颜色";
-            this.button工具栏按钮前景选中颜色.Size = new System.Drawing.Size(20, 20);
-            this.button工具栏按钮前景选中颜色.TabIndex = 40;
-            this.button工具栏按钮前景选中颜色.TabStop = false;
-            this.button工具栏按钮前景选中颜色.UseVisualStyleBackColor = false;
-            this.button工具栏按钮前景选中颜色.Click += new System.EventHandler(this.button工具栏按钮前景选中颜色_Click);
-            // 
-            // textBox标题字体大小
-            // 
-            this.textBox标题字体大小.BackColor = System.Drawing.Color.White;
-            this.textBox标题字体大小.ForeColor = System.Drawing.Color.Black;
-            this.textBox标题字体大小.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.textBox标题字体大小.Location = new System.Drawing.Point(86, 19);
-            this.textBox标题字体大小.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox标题字体大小.Name = "textBox标题字体大小";
-            this.textBox标题字体大小.Size = new System.Drawing.Size(45, 21);
-            this.textBox标题字体大小.TabIndex = 24;
-            this.textBox标题字体大小.TabStop = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Location = new System.Drawing.Point(6, 22);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(77, 12);
-            this.label11.TabIndex = 9;
-            this.label11.Text = "标题字体大小";
-            // 
-            // button波形显示区域背景色
-            // 
-            this.button波形显示区域背景色.BackColor = System.Drawing.Color.White;
-            this.button波形显示区域背景色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button波形显示区域背景色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button波形显示区域背景色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button波形显示区域背景色.Location = new System.Drawing.Point(319, 35);
-            this.button波形显示区域背景色.Margin = new System.Windows.Forms.Padding(2);
-            this.button波形显示区域背景色.Name = "button波形显示区域背景色";
-            this.button波形显示区域背景色.Size = new System.Drawing.Size(20, 20);
-            this.button波形显示区域背景色.TabIndex = 39;
-            this.button波形显示区域背景色.TabStop = false;
-            this.button波形显示区域背景色.UseVisualStyleBackColor = false;
-            this.button波形显示区域背景色.Click += new System.EventHandler(this.button波形显示区域背景色_Click);
-            // 
-            // button工具栏按钮背景色
-            // 
-            this.button工具栏按钮背景色.BackColor = System.Drawing.Color.White;
-            this.button工具栏按钮背景色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button工具栏按钮背景色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button工具栏按钮背景色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button工具栏按钮背景色.Location = new System.Drawing.Point(319, 83);
-            this.button工具栏按钮背景色.Margin = new System.Windows.Forms.Padding(2);
-            this.button工具栏按钮背景色.Name = "button工具栏按钮背景色";
-            this.button工具栏按钮背景色.Size = new System.Drawing.Size(20, 20);
-            this.button工具栏按钮背景色.TabIndex = 38;
-            this.button工具栏按钮背景色.TabStop = false;
-            this.button工具栏按钮背景色.UseVisualStyleBackColor = false;
-            this.button工具栏按钮背景色.Click += new System.EventHandler(this.button工具栏按钮背景色_Click);
-            // 
-            // button工具栏背景色
-            // 
-            this.button工具栏背景色.BackColor = System.Drawing.Color.White;
-            this.button工具栏背景色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button工具栏背景色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button工具栏背景色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button工具栏背景色.Location = new System.Drawing.Point(319, 59);
-            this.button工具栏背景色.Margin = new System.Windows.Forms.Padding(2);
-            this.button工具栏背景色.Name = "button工具栏背景色";
-            this.button工具栏背景色.Size = new System.Drawing.Size(20, 20);
-            this.button工具栏背景色.TabIndex = 37;
-            this.button工具栏背景色.TabStop = false;
-            this.button工具栏背景色.UseVisualStyleBackColor = false;
-            this.button工具栏背景色.Click += new System.EventHandler(this.button工具栏背景色_Click);
-            // 
-            // button网络线的颜色
-            // 
-            this.button网络线的颜色.BackColor = System.Drawing.Color.White;
-            this.button网络线的颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button网络线的颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button网络线的颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button网络线的颜色.Location = new System.Drawing.Point(319, 11);
-            this.button网络线的颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button网络线的颜色.Name = "button网络线的颜色";
-            this.button网络线的颜色.Size = new System.Drawing.Size(20, 20);
-            this.button网络线的颜色.TabIndex = 36;
-            this.button网络线的颜色.TabStop = false;
-            this.button网络线的颜色.UseVisualStyleBackColor = false;
-            this.button网络线的颜色.Click += new System.EventHandler(this.button网络线的颜色_Click);
-            // 
-            // button坐标标题颜色
-            // 
-            this.button坐标标题颜色.BackColor = System.Drawing.Color.White;
-            this.button坐标标题颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button坐标标题颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button坐标标题颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button坐标标题颜色.Location = new System.Drawing.Point(149, 213);
-            this.button坐标标题颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button坐标标题颜色.Name = "button坐标标题颜色";
-            this.button坐标标题颜色.Size = new System.Drawing.Size(20, 20);
-            this.button坐标标题颜色.TabIndex = 35;
-            this.button坐标标题颜色.TabStop = false;
-            this.button坐标标题颜色.UseVisualStyleBackColor = false;
-            this.button坐标标题颜色.Click += new System.EventHandler(this.button坐标标题颜色_Click);
-            // 
-            // button坐标值颜色
-            // 
-            this.button坐标值颜色.BackColor = System.Drawing.Color.White;
-            this.button坐标值颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button坐标值颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button坐标值颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button坐标值颜色.Location = new System.Drawing.Point(149, 189);
-            this.button坐标值颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button坐标值颜色.Name = "button坐标值颜色";
-            this.button坐标值颜色.Size = new System.Drawing.Size(20, 20);
-            this.button坐标值颜色.TabIndex = 34;
-            this.button坐标值颜色.TabStop = false;
-            this.button坐标值颜色.UseVisualStyleBackColor = false;
-            this.button坐标值颜色.Click += new System.EventHandler(this.button坐标值颜色_Click);
-            // 
-            // button坐标线颜色
-            // 
-            this.button坐标线颜色.BackColor = System.Drawing.Color.White;
-            this.button坐标线颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button坐标线颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button坐标线颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button坐标线颜色.Location = new System.Drawing.Point(149, 165);
-            this.button坐标线颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button坐标线颜色.Name = "button坐标线颜色";
-            this.button坐标线颜色.Size = new System.Drawing.Size(20, 20);
-            this.button坐标线颜色.TabIndex = 33;
-            this.button坐标线颜色.TabStop = false;
-            this.button坐标线颜色.UseVisualStyleBackColor = false;
-            this.button坐标线颜色.Click += new System.EventHandler(this.button坐标线颜色_Click);
-            // 
-            // button背景色渐进起始颜色
-            // 
-            this.button背景色渐进起始颜色.BackColor = System.Drawing.Color.White;
-            this.button背景色渐进起始颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button背景色渐进起始颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button背景色渐进起始颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button背景色渐进起始颜色.Location = new System.Drawing.Point(149, 117);
-            this.button背景色渐进起始颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button背景色渐进起始颜色.Name = "button背景色渐进起始颜色";
-            this.button背景色渐进起始颜色.Size = new System.Drawing.Size(20, 20);
-            this.button背景色渐进起始颜色.TabIndex = 32;
-            this.button背景色渐进起始颜色.TabStop = false;
-            this.button背景色渐进起始颜色.UseVisualStyleBackColor = false;
-            this.button背景色渐进起始颜色.Click += new System.EventHandler(this.button背景色渐进起始颜色_Click);
-            // 
-            // button背景色渐进终止颜色
-            // 
-            this.button背景色渐进终止颜色.BackColor = System.Drawing.Color.White;
-            this.button背景色渐进终止颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button背景色渐进终止颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button背景色渐进终止颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button背景色渐进终止颜色.Location = new System.Drawing.Point(149, 141);
-            this.button背景色渐进终止颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button背景色渐进终止颜色.Name = "button背景色渐进终止颜色";
-            this.button背景色渐进终止颜色.Size = new System.Drawing.Size(20, 20);
-            this.button背景色渐进终止颜色.TabIndex = 31;
-            this.button背景色渐进终止颜色.TabStop = false;
-            this.button背景色渐进终止颜色.UseVisualStyleBackColor = false;
-            this.button背景色渐进终止颜色.Click += new System.EventHandler(this.button背景色渐进终止颜色_Click);
-            // 
-            // button标题描边颜色
-            // 
-            this.button标题描边颜色.BackColor = System.Drawing.Color.White;
-            this.button标题描边颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button标题描边颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button标题描边颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button标题描边颜色.Location = new System.Drawing.Point(149, 93);
-            this.button标题描边颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button标题描边颜色.Name = "button标题描边颜色";
-            this.button标题描边颜色.Size = new System.Drawing.Size(20, 20);
-            this.button标题描边颜色.TabIndex = 30;
-            this.button标题描边颜色.TabStop = false;
-            this.button标题描边颜色.UseVisualStyleBackColor = false;
-            this.button标题描边颜色.Click += new System.EventHandler(this.button标题描边颜色_Click);
-            // 
-            // button标题颜色
-            // 
-            this.button标题颜色.BackColor = System.Drawing.Color.White;
-            this.button标题颜色.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button标题颜色.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button标题颜色.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button标题颜色.Location = new System.Drawing.Point(149, 69);
-            this.button标题颜色.Margin = new System.Windows.Forms.Padding(2);
-            this.button标题颜色.Name = "button标题颜色";
-            this.button标题颜色.Size = new System.Drawing.Size(20, 20);
-            this.button标题颜色.TabIndex = 29;
-            this.button标题颜色.TabStop = false;
-            this.button标题颜色.UseVisualStyleBackColor = false;
-            this.button标题颜色.Click += new System.EventHandler(this.button标题颜色_Click);
-            // 
-            // textBox标题位置
-            // 
-            this.textBox标题位置.BackColor = System.Drawing.Color.White;
-            this.textBox标题位置.ForeColor = System.Drawing.Color.Black;
-            this.textBox标题位置.Location = new System.Drawing.Point(86, 44);
-            this.textBox标题位置.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox标题位置.Name = "textBox标题位置";
-            this.textBox标题位置.Size = new System.Drawing.Size(45, 21);
-            this.textBox标题位置.TabIndex = 25;
-            this.textBox标题位置.TabStop = false;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Location = new System.Drawing.Point(6, 47);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(53, 12);
-            this.label12.TabIndex = 10;
-            this.label12.Text = "标题位置";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Location = new System.Drawing.Point(176, 87);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(101, 12);
-            this.label22.TabIndex = 23;
-            this.label22.Text = "工具栏按钮背景色";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Location = new System.Drawing.Point(6, 73);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(53, 12);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "标题颜色";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Location = new System.Drawing.Point(176, 111);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(137, 12);
-            this.label21.TabIndex = 22;
-            this.label21.Text = "工具栏按钮前景选中颜色";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Location = new System.Drawing.Point(6, 97);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(77, 12);
-            this.label14.TabIndex = 12;
-            this.label14.Text = "标题描边颜色";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Location = new System.Drawing.Point(176, 63);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(77, 12);
-            this.label20.TabIndex = 21;
-            this.label20.Text = "工具栏背景色";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Location = new System.Drawing.Point(6, 121);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(113, 12);
-            this.label15.TabIndex = 13;
-            this.label15.Text = "背景色渐进起始颜色";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Location = new System.Drawing.Point(176, 39);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(113, 12);
-            this.label19.TabIndex = 20;
-            this.label19.Text = "波形显示区域背景色";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Location = new System.Drawing.Point(6, 145);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(113, 12);
-            this.label16.TabIndex = 14;
-            this.label16.Text = "背景色渐进终止颜色";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Location = new System.Drawing.Point(176, 15);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(77, 12);
-            this.label18.TabIndex = 19;
-            this.label18.Text = "网格线的颜色";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Location = new System.Drawing.Point(6, 169);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(65, 12);
-            this.label17.TabIndex = 15;
-            this.label17.Text = "坐标线颜色";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Location = new System.Drawing.Point(6, 241);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(89, 12);
-            this.label29.TabIndex = 18;
-            this.label29.Text = "网格线的透明度";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Location = new System.Drawing.Point(6, 193);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(65, 12);
-            this.label30.TabIndex = 16;
-            this.label30.Text = "坐标值颜色";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.Location = new System.Drawing.Point(6, 217);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(77, 12);
-            this.label31.TabIndex = 17;
-            this.label31.Text = "坐标标题颜色";
             // 
             // groupBox数据显示模拟
             // 
             this.groupBox数据显示模拟.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox数据显示模拟.Controls.Add(this.button参考样式2);
-            this.groupBox数据显示模拟.Controls.Add(this.button默认样式);
-            this.groupBox数据显示模拟.Controls.Add(this.button参考样式1);
             this.groupBox数据显示模拟.Controls.Add(this.textBox附加参数);
             this.groupBox数据显示模拟.Controls.Add(this.label5);
             this.groupBox数据显示模拟.Controls.Add(this.label4);
             this.groupBox数据显示模拟.Controls.Add(this.textBox数值);
             this.groupBox数据显示模拟.Controls.Add(this.button数据显示模拟7);
-            this.groupBox数据显示模拟.Controls.Add(this.button数据显示模拟5);
             this.groupBox数据显示模拟.ForeColor = System.Drawing.Color.Black;
-            this.groupBox数据显示模拟.Location = new System.Drawing.Point(436, 12);
+            this.groupBox数据显示模拟.Location = new System.Drawing.Point(812, 31);
             this.groupBox数据显示模拟.Name = "groupBox数据显示模拟";
-            this.groupBox数据显示模拟.Size = new System.Drawing.Size(119, 137);
+            this.groupBox数据显示模拟.Size = new System.Drawing.Size(119, 104);
             this.groupBox数据显示模拟.TabIndex = 2;
             this.groupBox数据显示模拟.TabStop = false;
             this.groupBox数据显示模拟.Text = "数据显示模拟";
-            // 
-            // button参考样式2
-            // 
-            this.button参考样式2.Location = new System.Drawing.Point(61, 86);
-            this.button参考样式2.Name = "button参考样式2";
-            this.button参考样式2.Size = new System.Drawing.Size(51, 23);
-            this.button参考样式2.TabIndex = 57;
-            this.button参考样式2.TabStop = false;
-            this.button参考样式2.Text = "样式2";
-            this.button参考样式2.UseVisualStyleBackColor = true;
-            this.button参考样式2.Click += new System.EventHandler(this.button参考样式2_Click);
-            // 
-            // button默认样式
-            // 
-            this.button默认样式.Location = new System.Drawing.Point(50, 63);
-            this.button默认样式.Name = "button默认样式";
-            this.button默认样式.Size = new System.Drawing.Size(69, 23);
-            this.button默认样式.TabIndex = 55;
-            this.button默认样式.TabStop = false;
-            this.button默认样式.Text = "默认样式";
-            this.button默认样式.UseVisualStyleBackColor = true;
-            this.button默认样式.Click += new System.EventHandler(this.button默认样式_Click);
-            // 
-            // button参考样式1
-            // 
-            this.button参考样式1.Location = new System.Drawing.Point(6, 86);
-            this.button参考样式1.Name = "button参考样式1";
-            this.button参考样式1.Size = new System.Drawing.Size(51, 23);
-            this.button参考样式1.TabIndex = 56;
-            this.button参考样式1.TabStop = false;
-            this.button参考样式1.Text = "样式1";
-            this.button参考样式1.UseVisualStyleBackColor = true;
-            this.button参考样式1.Click += new System.EventHandler(this.button参考样式1_Click);
             // 
             // textBox附加参数
             // 
@@ -1297,45 +349,142 @@
             this.textBox数值.Name = "textBox数值";
             this.textBox数值.Size = new System.Drawing.Size(48, 21);
             this.textBox数值.TabIndex = 6;
-            this.textBox数值.Text = "500";
+            this.textBox数值.Text = "2000";
             // 
             // button数据显示模拟7
             // 
-            this.button数据显示模拟7.Location = new System.Drawing.Point(8, 108);
+            this.button数据显示模拟7.Location = new System.Drawing.Point(27, 69);
             this.button数据显示模拟7.Name = "button数据显示模拟7";
-            this.button数据显示模拟7.Size = new System.Drawing.Size(105, 29);
+            this.button数据显示模拟7.Size = new System.Drawing.Size(86, 29);
             this.button数据显示模拟7.TabIndex = 5;
             this.button数据显示模拟7.Text = "清空显示";
             this.button数据显示模拟7.UseVisualStyleBackColor = true;
             this.button数据显示模拟7.Click += new System.EventHandler(this.button数据显示模拟7_Click);
             // 
-            // button数据显示模拟5
+            // zGraph2
             // 
-            this.button数据显示模拟5.Location = new System.Drawing.Point(8, 63);
-            this.button数据显示模拟5.Name = "button数据显示模拟5";
-            this.button数据显示模拟5.Size = new System.Drawing.Size(40, 23);
-            this.button数据显示模拟5.TabIndex = 59;
-            this.button数据显示模拟5.Text = "随机点的显示[周期k]";
-            this.button数据显示模拟5.UseVisualStyleBackColor = true;
-            this.button数据显示模拟5.Click += new System.EventHandler(this.button数据显示模拟5_Click);
+            this.zGraph2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.zGraph2.BackColor = System.Drawing.Color.White;
+            this.zGraph2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.zGraph2.Location = new System.Drawing.Point(305, 280);
+            this.zGraph2.m_backColorH = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.zGraph2.m_backColorL = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph2.m_BigXYBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph2.m_BigXYButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph2.m_BigXYButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph2.m_ControlButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph2.m_ControlButtonForeColorH = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.zGraph2.m_ControlButtonForeColorL = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.zGraph2.m_ControlItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph2.m_coordinateLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph2.m_coordinateStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph2.m_coordinateStringTitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph2.m_DirectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.zGraph2.m_DirectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph2.m_fXBeginSYS = 0F;
+            this.zGraph2.m_fXEndSYS = 60F;
+            this.zGraph2.m_fYBeginSYS = 0F;
+            this.zGraph2.m_fYEndSYS = 1F;
+            this.zGraph2.m_GraphBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph2.m_iLineShowColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph2.m_iLineShowColorAlpha = 100;
+            this.zGraph2.m_SySnameX = "X轴坐标";
+            this.zGraph2.m_SySnameY = "Y轴坐标";
+            this.zGraph2.m_SyStitle = "波形显示2";
+            this.zGraph2.m_titleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.zGraph2.m_titleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph2.m_titlePosition = 0.3F;
+            this.zGraph2.m_titleSize = 14;
+            this.zGraph2.Margin = new System.Windows.Forms.Padding(0);
+            this.zGraph2.MinimumSize = new System.Drawing.Size(530, 270);
+            this.zGraph2.Name = "zGraph2";
+            this.zGraph2.Size = new System.Drawing.Size(530, 302);
+            this.zGraph2.TabIndex = 74;
+            // 
+            // zGraph0
+            // 
+            this.zGraph0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.zGraph0.BackColor = System.Drawing.Color.White;
+            this.zGraph0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.zGraph0.Location = new System.Drawing.Point(83, 14);
+            this.zGraph0.m_backColorH = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.zGraph0.m_backColorL = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph0.m_BigXYBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph0.m_BigXYButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph0.m_BigXYButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph0.m_ControlButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph0.m_ControlButtonForeColorH = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.zGraph0.m_ControlButtonForeColorL = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.zGraph0.m_ControlItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph0.m_coordinateLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph0.m_coordinateStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph0.m_coordinateStringTitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph0.m_DirectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.zGraph0.m_DirectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph0.m_fXBeginSYS = 0F;
+            this.zGraph0.m_fXEndSYS = 60F;
+            this.zGraph0.m_fYBeginSYS = 0F;
+            this.zGraph0.m_fYEndSYS = 1F;
+            this.zGraph0.m_GraphBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph0.m_iLineShowColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph0.m_iLineShowColorAlpha = 100;
+            this.zGraph0.m_SySnameX = "X轴坐标";
+            this.zGraph0.m_SySnameY = "Y轴坐标";
+            this.zGraph0.m_SyStitle = "波形显示0";
+            this.zGraph0.m_titleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.zGraph0.m_titleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph0.m_titlePosition = 0.3F;
+            this.zGraph0.m_titleSize = 14;
+            this.zGraph0.Margin = new System.Windows.Forms.Padding(0);
+            this.zGraph0.MinimumSize = new System.Drawing.Size(455, 270);
+            this.zGraph0.Name = "zGraph0";
+            this.zGraph0.Size = new System.Drawing.Size(455, 302);
+            this.zGraph0.TabIndex = 72;
+            // 
+            // zGraph1
+            // 
+            this.zGraph1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.zGraph1.BackColor = System.Drawing.Color.White;
+            this.zGraph1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.zGraph1.Location = new System.Drawing.Point(159, 120);
+            this.zGraph1.m_backColorH = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.zGraph1.m_backColorL = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph1.m_BigXYBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph1.m_BigXYButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph1.m_BigXYButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph1.m_ControlButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph1.m_ControlButtonForeColorH = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.zGraph1.m_ControlButtonForeColorL = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.zGraph1.m_ControlItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph1.m_coordinateLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph1.m_coordinateStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph1.m_coordinateStringTitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph1.m_DirectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.zGraph1.m_DirectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph1.m_fXBeginSYS = 0F;
+            this.zGraph1.m_fXEndSYS = 60F;
+            this.zGraph1.m_fYBeginSYS = 0F;
+            this.zGraph1.m_fYEndSYS = 1F;
+            this.zGraph1.m_GraphBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph1.m_iLineShowColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.zGraph1.m_iLineShowColorAlpha = 100;
+            this.zGraph1.m_SySnameX = "X轴坐标";
+            this.zGraph1.m_SySnameY = "Y轴坐标";
+            this.zGraph1.m_SyStitle = "波形显示1";
+            this.zGraph1.m_titleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.zGraph1.m_titleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.zGraph1.m_titlePosition = 0.3F;
+            this.zGraph1.m_titleSize = 14;
+            this.zGraph1.Margin = new System.Windows.Forms.Padding(0);
+            this.zGraph1.MinimumSize = new System.Drawing.Size(530, 270);
+            this.zGraph1.Name = "zGraph1";
+            this.zGraph1.Size = new System.Drawing.Size(530, 302);
+            this.zGraph1.TabIndex = 73;
             // 
             // tabPage6
             // 
             this.tabPage6.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.tabPage6.Controls.Add(this.checkBox9);
-            this.tabPage6.Controls.Add(this.button90);
-            this.tabPage6.Controls.Add(this.button89);
-            this.tabPage6.Controls.Add(this.button88);
-            this.tabPage6.Controls.Add(this.button87);
-            this.tabPage6.Controls.Add(this.button86);
-            this.tabPage6.Controls.Add(this.button85);
-            this.tabPage6.Controls.Add(this.button84);
-            this.tabPage6.Controls.Add(this.button83);
-            this.tabPage6.Controls.Add(this.button82);
-            this.tabPage6.Controls.Add(this.button81);
-            this.tabPage6.Controls.Add(this.button80);
-            this.tabPage6.Controls.Add(this.comboBox1);
-            this.tabPage6.Controls.Add(this.label34);
             this.tabPage6.Controls.Add(this.label33);
             this.tabPage6.Controls.Add(this.checkBox7);
             this.tabPage6.Controls.Add(this.checkBox8);
@@ -1347,7 +496,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(911, 620);
+            this.tabPage6.Size = new System.Drawing.Size(1029, 688);
             this.tabPage6.TabIndex = 6;
             this.tabPage6.Text = "CCD图像显示";
             // 
@@ -1356,153 +505,22 @@
             this.checkBox9.AutoSize = true;
             this.checkBox9.Checked = true;
             this.checkBox9.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox9.Location = new System.Drawing.Point(514, 5);
+            this.checkBox9.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox9.Location = new System.Drawing.Point(825, 22);
             this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(72, 16);
+            this.checkBox9.Size = new System.Drawing.Size(156, 31);
             this.checkBox9.TabIndex = 21;
-            this.checkBox9.Text = "保存数据";
+            this.checkBox9.Text = "保存ccd0数据";
             this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // button90
-            // 
-            this.button90.Location = new System.Drawing.Point(816, 296);
-            this.button90.Name = "button90";
-            this.button90.Size = new System.Drawing.Size(89, 23);
-            this.button90.TabIndex = 20;
-            this.button90.Text = "自定义11:?";
-            this.button90.UseVisualStyleBackColor = true;
-            this.button90.Click += new System.EventHandler(this.button90_Click);
-            // 
-            // button89
-            // 
-            this.button89.Location = new System.Drawing.Point(816, 267);
-            this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(89, 23);
-            this.button89.TabIndex = 19;
-            this.button89.Text = "自定义10:?";
-            this.button89.UseVisualStyleBackColor = true;
-            this.button89.Click += new System.EventHandler(this.button89_Click);
-            // 
-            // button88
-            // 
-            this.button88.Location = new System.Drawing.Point(816, 238);
-            this.button88.Name = "button88";
-            this.button88.Size = new System.Drawing.Size(89, 23);
-            this.button88.TabIndex = 18;
-            this.button88.Text = "自定义9:?";
-            this.button88.UseVisualStyleBackColor = true;
-            this.button88.Click += new System.EventHandler(this.button88_Click);
-            // 
-            // button87
-            // 
-            this.button87.Location = new System.Drawing.Point(816, 208);
-            this.button87.Name = "button87";
-            this.button87.Size = new System.Drawing.Size(89, 23);
-            this.button87.TabIndex = 17;
-            this.button87.Text = "自定义8:?";
-            this.button87.UseVisualStyleBackColor = true;
-            this.button87.Click += new System.EventHandler(this.button87_Click);
-            // 
-            // button86
-            // 
-            this.button86.Location = new System.Drawing.Point(816, 179);
-            this.button86.Name = "button86";
-            this.button86.Size = new System.Drawing.Size(89, 23);
-            this.button86.TabIndex = 16;
-            this.button86.Text = "自定义7:?";
-            this.button86.UseVisualStyleBackColor = true;
-            this.button86.Click += new System.EventHandler(this.button86_Click);
-            // 
-            // button85
-            // 
-            this.button85.Location = new System.Drawing.Point(816, 149);
-            this.button85.Name = "button85";
-            this.button85.Size = new System.Drawing.Size(89, 23);
-            this.button85.TabIndex = 15;
-            this.button85.Text = "自定义6:?";
-            this.button85.UseVisualStyleBackColor = true;
-            this.button85.Click += new System.EventHandler(this.button85_Click);
-            // 
-            // button84
-            // 
-            this.button84.Location = new System.Drawing.Point(816, 120);
-            this.button84.Name = "button84";
-            this.button84.Size = new System.Drawing.Size(89, 23);
-            this.button84.TabIndex = 14;
-            this.button84.Text = "自定义5:?";
-            this.button84.UseVisualStyleBackColor = true;
-            this.button84.Click += new System.EventHandler(this.button84_Click);
-            // 
-            // button83
-            // 
-            this.button83.Location = new System.Drawing.Point(816, 91);
-            this.button83.Name = "button83";
-            this.button83.Size = new System.Drawing.Size(89, 23);
-            this.button83.TabIndex = 13;
-            this.button83.Text = "自定义4:?";
-            this.button83.UseVisualStyleBackColor = true;
-            this.button83.Click += new System.EventHandler(this.button83_Click);
-            // 
-            // button82
-            // 
-            this.button82.Location = new System.Drawing.Point(816, 62);
-            this.button82.Name = "button82";
-            this.button82.Size = new System.Drawing.Size(89, 23);
-            this.button82.TabIndex = 12;
-            this.button82.Text = "自定义3:?";
-            this.button82.UseVisualStyleBackColor = true;
-            this.button82.Click += new System.EventHandler(this.button82_Click);
-            // 
-            // button81
-            // 
-            this.button81.Location = new System.Drawing.Point(816, 33);
-            this.button81.Name = "button81";
-            this.button81.Size = new System.Drawing.Size(89, 23);
-            this.button81.TabIndex = 11;
-            this.button81.Text = "自定义2:?";
-            this.button81.UseVisualStyleBackColor = true;
-            this.button81.Click += new System.EventHandler(this.button81_Click);
-            // 
-            // button80
-            // 
-            this.button80.Location = new System.Drawing.Point(815, 3);
-            this.button80.Name = "button80";
-            this.button80.Size = new System.Drawing.Size(90, 23);
-            this.button80.TabIndex = 10;
-            this.button80.Text = "自定义1:?";
-            this.button80.UseVisualStyleBackColor = true;
-            this.button80.Click += new System.EventHandler(this.button80_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2"});
-            this.comboBox1.Location = new System.Drawing.Point(718, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(51, 20);
-            this.comboBox1.TabIndex = 9;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(653, 8);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(59, 12);
-            this.label34.TabIndex = 8;
-            this.label34.Text = "ccd个数：";
             // 
             // label33
             // 
             this.label33.AutoSize = true;
             this.label33.BackColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(230, 311);
+            this.label33.Font = new System.Drawing.Font("微软雅黑", 15F);
+            this.label33.Location = new System.Drawing.Point(823, 583);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(59, 12);
+            this.label33.Size = new System.Drawing.Size(104, 27);
             this.label33.TabIndex = 7;
             this.label33.Text = "帧计数：0";
             // 
@@ -1512,9 +530,10 @@
             this.checkBox7.BackColor = System.Drawing.Color.White;
             this.checkBox7.Checked = true;
             this.checkBox7.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox7.Location = new System.Drawing.Point(38, 310);
+            this.checkBox7.Font = new System.Drawing.Font("微软雅黑", 15F);
+            this.checkBox7.Location = new System.Drawing.Point(828, 421);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(84, 16);
+            this.checkBox7.Size = new System.Drawing.Size(131, 31);
             this.checkBox7.TabIndex = 6;
             this.checkBox7.Text = "显示坐标点";
             this.checkBox7.UseVisualStyleBackColor = false;
@@ -1526,9 +545,10 @@
             this.checkBox8.BackColor = System.Drawing.Color.White;
             this.checkBox8.Checked = true;
             this.checkBox8.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox8.Location = new System.Drawing.Point(128, 310);
+            this.checkBox8.Font = new System.Drawing.Font("微软雅黑", 15F);
+            this.checkBox8.Location = new System.Drawing.Point(825, 505);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(96, 16);
+            this.checkBox8.Size = new System.Drawing.Size(151, 31);
             this.checkBox8.TabIndex = 5;
             this.checkBox8.Text = "纵轴网格显示";
             this.checkBox8.UseVisualStyleBackColor = false;
@@ -1536,23 +556,22 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(6, 306);
+            this.pictureBox8.Location = new System.Drawing.Point(6, 374);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(803, 308);
             this.pictureBox8.TabIndex = 4;
             this.pictureBox8.TabStop = false;
-            this.pictureBox8.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox8_Paint);
             // 
             // label32
             // 
             this.label32.AutoSize = true;
             this.label32.BackColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(230, 6);
+            this.label32.Font = new System.Drawing.Font("微软雅黑", 15F);
+            this.label32.Location = new System.Drawing.Point(823, 242);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(59, 12);
+            this.label32.Size = new System.Drawing.Size(104, 27);
             this.label32.TabIndex = 3;
             this.label32.Text = "帧计数：0";
-            this.label32.Click += new System.EventHandler(this.label32_Click);
             // 
             // checkBox6
             // 
@@ -1560,9 +579,10 @@
             this.checkBox6.BackColor = System.Drawing.Color.White;
             this.checkBox6.Checked = true;
             this.checkBox6.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox6.Location = new System.Drawing.Point(38, 5);
+            this.checkBox6.Font = new System.Drawing.Font("微软雅黑", 15F);
+            this.checkBox6.Location = new System.Drawing.Point(825, 101);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(84, 16);
+            this.checkBox6.Size = new System.Drawing.Size(131, 31);
             this.checkBox6.TabIndex = 2;
             this.checkBox6.Text = "显示坐标点";
             this.checkBox6.UseVisualStyleBackColor = false;
@@ -1574,9 +594,10 @@
             this.checkBox5.BackColor = System.Drawing.Color.White;
             this.checkBox5.Checked = true;
             this.checkBox5.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox5.Location = new System.Drawing.Point(128, 5);
+            this.checkBox5.Font = new System.Drawing.Font("微软雅黑", 15F);
+            this.checkBox5.Location = new System.Drawing.Point(825, 176);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(96, 16);
+            this.checkBox5.Size = new System.Drawing.Size(151, 31);
             this.checkBox5.TabIndex = 1;
             this.checkBox5.Text = "纵轴网格显示";
             this.checkBox5.UseVisualStyleBackColor = false;
@@ -1584,37 +605,70 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(6, 3);
+            this.pictureBox7.Location = new System.Drawing.Point(6, 27);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(803, 304);
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
-            this.pictureBox7.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox7_Paint);
             // 
             // tabPage7
             // 
             this.tabPage7.BackColor = System.Drawing.Color.Silver;
+            this.tabPage7.Controls.Add(this.checkBox10);
+            this.tabPage7.Controls.Add(this.button91);
+            this.tabPage7.Controls.Add(this.checkBox12);
             this.tabPage7.Controls.Add(this.label38);
             this.tabPage7.Controls.Add(this.label39);
             this.tabPage7.Controls.Add(this.label40);
             this.tabPage7.Controls.Add(this.label41);
             this.tabPage7.Controls.Add(this.label37);
-            this.tabPage7.Controls.Add(this.button91);
-            this.tabPage7.Controls.Add(this.groupBox7);
             this.tabPage7.Controls.Add(this.pictureBox9);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(911, 620);
+            this.tabPage7.Size = new System.Drawing.Size(1029, 688);
             this.tabPage7.TabIndex = 7;
             this.tabPage7.Text = "摄像头图像显示";
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Checked = true;
+            this.checkBox10.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox10.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox10.Location = new System.Drawing.Point(771, 82);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(113, 25);
+            this.checkBox10.TabIndex = 12;
+            this.checkBox10.Text = "鹰眼模式";
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // button91
+            // 
+            this.button91.Location = new System.Drawing.Point(771, 131);
+            this.button91.Name = "button91";
+            this.button91.Size = new System.Drawing.Size(110, 47);
+            this.button91.TabIndex = 5;
+            this.button91.Text = "清空显示";
+            this.button91.UseVisualStyleBackColor = true;
+            this.button91.Click += new System.EventHandler(this.button91_Click);
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox12.Location = new System.Drawing.Point(771, 37);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(113, 25);
+            this.checkBox12.TabIndex = 11;
+            this.checkBox12.Text = "存储图像";
+            this.checkBox12.UseVisualStyleBackColor = true;
             // 
             // label38
             // 
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(270, 492);
+            this.label38.Location = new System.Drawing.Point(527, 515);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(31, 34);
             this.label38.TabIndex = 7;
@@ -1625,7 +679,7 @@
             // 
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(270, 446);
+            this.label39.Location = new System.Drawing.Point(527, 575);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(31, 34);
             this.label39.TabIndex = 8;
@@ -1636,7 +690,7 @@
             // 
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(53, 443);
+            this.label40.Location = new System.Drawing.Point(275, 575);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(239, 34);
             this.label40.TabIndex = 9;
@@ -1646,7 +700,7 @@
             // 
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(53, 492);
+            this.label41.Location = new System.Drawing.Point(275, 515);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(239, 34);
             this.label41.TabIndex = 10;
@@ -1656,129 +710,105 @@
             // 
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(465, 456);
+            this.label37.Location = new System.Drawing.Point(275, 456);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(246, 34);
             this.label37.TabIndex = 6;
             this.label37.Text = "欢迎使用！！！";
             // 
-            // button91
-            // 
-            this.button91.Location = new System.Drawing.Point(43, 550);
-            this.button91.Name = "button91";
-            this.button91.Size = new System.Drawing.Size(249, 47);
-            this.button91.TabIndex = 5;
-            this.button91.Text = "清空显示";
-            this.button91.UseVisualStyleBackColor = true;
-            this.button91.Click += new System.EventHandler(this.button91_Click);
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.checkBox12);
-            this.groupBox7.Controls.Add(this.checkBox11);
-            this.groupBox7.Controls.Add(this.checkBox10);
-            this.groupBox7.Controls.Add(this.textBox7);
-            this.groupBox7.Controls.Add(this.textBox8);
-            this.groupBox7.Controls.Add(this.label35);
-            this.groupBox7.Controls.Add(this.label36);
-            this.groupBox7.Location = new System.Drawing.Point(756, 17);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(141, 192);
-            this.groupBox7.TabIndex = 5;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "图像参数";
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(21, 100);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(72, 16);
-            this.checkBox12.TabIndex = 11;
-            this.checkBox12.Text = "存储图像";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Checked = true;
-            this.checkBox11.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox11.Location = new System.Drawing.Point(21, 130);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(72, 16);
-            this.checkBox11.TabIndex = 8;
-            this.checkBox11.Text = "连续采集";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            this.checkBox11.CheckedChanged += new System.EventHandler(this.checkBox11_CheckedChanged);
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Enabled = false;
-            this.checkBox10.Location = new System.Drawing.Point(21, 157);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(72, 16);
-            this.checkBox10.TabIndex = 5;
-            this.checkBox10.Text = "单次采集";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            this.checkBox10.CheckedChanged += new System.EventHandler(this.checkBox10_CheckedChanged);
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(72, 21);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(38, 21);
-            this.textBox7.TabIndex = 2;
-            this.textBox7.Text = "100";
-            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(72, 57);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(38, 21);
-            this.textBox8.TabIndex = 4;
-            this.textBox8.Text = "640";
-            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(19, 24);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(41, 12);
-            this.label35.TabIndex = 1;
-            this.label35.Text = "行数：";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(19, 61);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(41, 12);
-            this.label36.TabIndex = 3;
-            this.label36.Text = "列数：";
-            // 
             // pictureBox9
             // 
             this.pictureBox9.Location = new System.Drawing.Point(6, 3);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(744, 415);
+            this.pictureBox9.Size = new System.Drawing.Size(744, 437);
             this.pictureBox9.TabIndex = 0;
             this.pictureBox9.TabStop = false;
-            this.pictureBox9.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox9_Paint);
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.label8);
+            this.tabPage4.Controls.Add(this.label7);
+            this.tabPage4.Controls.Add(this.comboBox3);
+            this.tabPage4.Controls.Add(this.comboBox2);
+            this.tabPage4.Controls.Add(this.linkLabel1);
+            this.tabPage4.Controls.Add(this.label6);
             this.tabPage4.Controls.Add(this.richTextBox使用说明);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(911, 620);
+            this.tabPage4.Size = new System.Drawing.Size(1029, 688);
             this.tabPage4.TabIndex = 4;
             this.tabPage4.Text = "使用说明";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label8.Location = new System.Drawing.Point(289, 41);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(90, 21);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "功能选择：";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Location = new System.Drawing.Point(17, 41);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(106, 21);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "单片机型号：";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "数据画图",
+            "CCD画图",
+            "摄像头画图"});
+            this.comboBox3.Location = new System.Drawing.Point(385, 42);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(90, 20);
+            this.comboBox3.TabIndex = 4;
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "K60 & KL26",
+            "XS128"});
+            this.comboBox2.Location = new System.Drawing.Point(129, 45);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(85, 20);
+            this.comboBox2.TabIndex = 3;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.linkLabel1.Location = new System.Drawing.Point(682, 14);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(204, 21);
+            this.linkLabel1.TabIndex = 2;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "如果想参与项目请上github";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Location = new System.Drawing.Point(17, 13);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(480, 21);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "如果有疑问请联系QQ：912385457    微信：wangdongxuking61";
             // 
             // richTextBox使用说明
             // 
@@ -1786,13 +816,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox使用说明.BackColor = System.Drawing.Color.NavajoWhite;
-            this.richTextBox使用说明.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.richTextBox使用说明.Location = new System.Drawing.Point(3, 3);
+            this.richTextBox使用说明.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox使用说明.Location = new System.Drawing.Point(3, 74);
             this.richTextBox使用说明.Name = "richTextBox使用说明";
-            this.richTextBox使用说明.Size = new System.Drawing.Size(902, 611);
+            this.richTextBox使用说明.Size = new System.Drawing.Size(1020, 608);
             this.richTextBox使用说明.TabIndex = 0;
             this.richTextBox使用说明.Text = "";
-            this.richTextBox使用说明.TextChanged += new System.EventHandler(this.richTextBox使用说明_TextChanged);
             // 
             // groupBox3
             // 
@@ -1804,14 +833,13 @@
             this.groupBox3.Controls.Add(this.checkBox2);
             this.groupBox3.Controls.Add(this.checkBox3);
             this.groupBox3.Controls.Add(this.richTextBox2);
-            this.groupBox3.Location = new System.Drawing.Point(931, 150);
+            this.groupBox3.Location = new System.Drawing.Point(1065, 163);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(144, 170);
             this.groupBox3.TabIndex = 14;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // label9
             // 
@@ -1821,7 +849,6 @@
             this.label9.Size = new System.Drawing.Size(53, 12);
             this.label9.TabIndex = 17;
             this.label9.Text = "已发送:0";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // button2
             // 
@@ -1856,7 +883,6 @@
             this.checkBox2.TabIndex = 9;
             this.checkBox2.Text = "十六进制发送";
             this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged_1);
             // 
             // checkBox3
             // 
@@ -1868,7 +894,6 @@
             this.checkBox3.TabIndex = 15;
             this.checkBox3.Text = "包含换行符";
             this.checkBox3.UseVisualStyleBackColor = true;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // richTextBox2
             // 
@@ -1878,7 +903,6 @@
             this.richTextBox2.Size = new System.Drawing.Size(125, 86);
             this.richTextBox2.TabIndex = 7;
             this.richTextBox2.Text = "";
-            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
             // groupBox1
             // 
@@ -1891,12 +915,11 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.cbBaudRateList);
             this.groupBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.groupBox1.Location = new System.Drawing.Point(931, 30);
+            this.groupBox1.Location = new System.Drawing.Point(1065, 42);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(144, 116);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // btnComOpen
             // 
@@ -1917,7 +940,6 @@
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 1;
             this.label1.Text = "串口号";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // cbComList
             // 
@@ -1927,7 +949,6 @@
             this.cbComList.Name = "cbComList";
             this.cbComList.Size = new System.Drawing.Size(66, 20);
             this.cbComList.TabIndex = 2;
-            this.cbComList.SelectedIndexChanged += new System.EventHandler(this.cbComList_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -1937,7 +958,6 @@
             this.label2.Size = new System.Drawing.Size(41, 12);
             this.label2.TabIndex = 1;
             this.label2.Text = "波特率";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // cbBaudRateList
             // 
@@ -1957,11 +977,10 @@
             this.cbBaudRateList.Name = "cbBaudRateList";
             this.cbBaudRateList.Size = new System.Drawing.Size(66, 20);
             this.cbBaudRateList.TabIndex = 2;
-            this.cbBaudRateList.SelectedIndexChanged += new System.EventHandler(this.cbBaudRateList_SelectedIndexChanged);
             // 
             // groupBox4
             // 
-            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox4.BackColor = System.Drawing.Color.NavajoWhite;
             this.groupBox4.Controls.Add(this.checkBox4);
             this.groupBox4.Controls.Add(this.textBox4);
@@ -1973,14 +992,13 @@
             this.groupBox4.Controls.Add(this.button6);
             this.groupBox4.Controls.Add(this.button5);
             this.groupBox4.Controls.Add(this.button4);
-            this.groupBox4.Location = new System.Drawing.Point(931, 505);
+            this.groupBox4.Location = new System.Drawing.Point(1065, 519);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox4.Size = new System.Drawing.Size(142, 152);
             this.groupBox4.TabIndex = 17;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // checkBox4
             // 
@@ -2001,7 +1019,6 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(55, 21);
             this.textBox4.TabIndex = 8;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // button8
             // 
@@ -2021,7 +1038,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(55, 21);
             this.textBox3.TabIndex = 6;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox2
             // 
@@ -2030,7 +1046,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(55, 21);
             this.textBox2.TabIndex = 5;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox1
             // 
@@ -2039,7 +1054,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(55, 21);
             this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_2);
             // 
             // button7
             // 
@@ -2085,10 +1099,6 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // timerRandom
-            // 
-            this.timerRandom.Tick += new System.EventHandler(this.timerRandom_Tick);
-            // 
             // timerDraw
             // 
             this.timerDraw.Interval = 50;
@@ -2126,7 +1136,7 @@
             this.groupBox8.Controls.Add(this.c);
             this.groupBox8.Controls.Add(this.b);
             this.groupBox8.Controls.Add(this.a);
-            this.groupBox8.Location = new System.Drawing.Point(931, 325);
+            this.groupBox8.Location = new System.Drawing.Point(1065, 338);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(141, 176);
             this.groupBox8.TabIndex = 18;
@@ -2419,7 +1429,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
-            this.ClientSize = new System.Drawing.Size(1084, 672);
+            this.ClientSize = new System.Drawing.Size(1218, 749);
             this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox1);
@@ -2428,9 +1438,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
-            this.Text = "Ling Test V3.0";
+            this.Text = "DLUT SmartCar V4.2";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.tabControl1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -2439,9 +1449,6 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            this.groupBox外观样式.ResumeLayout(false);
-            this.groupBox外观样式.PerformLayout();
             this.groupBox数据显示模拟.ResumeLayout(false);
             this.groupBox数据显示模拟.PerformLayout();
             this.tabPage6.ResumeLayout(false);
@@ -2450,10 +1457,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -2500,7 +1506,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Timer timerRandom;
         private System.Windows.Forms.Timer timerDraw;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.GroupBox groupBox数据显示模拟;
@@ -2510,55 +1515,6 @@
         private System.Windows.Forms.TextBox textBox数值;
         private System.Windows.Forms.Button button数据显示模拟7;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button参考样式2;
-        private System.Windows.Forms.Button button参考样式1;
-        private System.Windows.Forms.Button button默认样式;
-        private System.Windows.Forms.GroupBox groupBox外观样式;
-        private System.Windows.Forms.Button button网络线的透明度;
-        private System.Windows.Forms.Button button标题位置;
-        private System.Windows.Forms.Button button标题字体大小;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox textBox网络线的透明度;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Button button放大选取框按钮文字颜色;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Button button放大选取框按钮背景颜色;
-        private System.Windows.Forms.Button button放大选取框背景颜色;
-        private System.Windows.Forms.Button button标签说明框背景颜色;
-        private System.Windows.Forms.Button button标签说明框文字颜色;
-        private System.Windows.Forms.Button button工具栏按钮前景未选中颜色;
-        private System.Windows.Forms.Button button工具栏按钮前景选中颜色;
-        private System.Windows.Forms.TextBox textBox标题字体大小;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button波形显示区域背景色;
-        private System.Windows.Forms.Button button工具栏按钮背景色;
-        private System.Windows.Forms.Button button工具栏背景色;
-        private System.Windows.Forms.Button button网络线的颜色;
-        private System.Windows.Forms.Button button坐标标题颜色;
-        private System.Windows.Forms.Button button坐标值颜色;
-        private System.Windows.Forms.Button button坐标线颜色;
-        private System.Windows.Forms.Button button背景色渐进起始颜色;
-        private System.Windows.Forms.Button button背景色渐进终止颜色;
-        private System.Windows.Forms.Button button标题描边颜色;
-        private System.Windows.Forms.Button button标题颜色;
-        private System.Windows.Forms.TextBox textBox标题位置;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.Button button23;
@@ -2589,31 +1545,8 @@
         private System.Windows.Forms.Button button36;
         private System.Windows.Forms.Button button37;
         private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button数据显示模拟5;
-        private System.Windows.Forms.ComboBox comboBox图片1曲线数目;
-        private System.Windows.Forms.ComboBox comboBox图片0曲线数目;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox图片2曲线数目;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RichTextBox richTextBox使用说明;
-        private ZhengJuyin.UI.ZGraph zGraph2;
-        private ZhengJuyin.UI.ZGraph zGraph1;
-        private ZhengJuyin.UI.ZGraph zGraph0;
         private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.Button button90;
-        private System.Windows.Forms.Button button89;
-        private System.Windows.Forms.Button button88;
-        private System.Windows.Forms.Button button87;
-        private System.Windows.Forms.Button button86;
-        private System.Windows.Forms.Button button85;
-        private System.Windows.Forms.Button button84;
-        private System.Windows.Forms.Button button83;
-        private System.Windows.Forms.Button button82;
-        private System.Windows.Forms.Button button81;
-        private System.Windows.Forms.Button button80;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.CheckBox checkBox8;
@@ -2625,20 +1558,23 @@
         private System.Windows.Forms.CheckBox checkBox9;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Button button91;
-        private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox10;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Button button91;
         private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private ZhengJuyin.UI.ZGraph zGraph2;
+        private ZhengJuyin.UI.ZGraph zGraph0;
+        private ZhengJuyin.UI.ZGraph zGraph1;
     }
 }
 
